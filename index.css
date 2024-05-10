@@ -71,10 +71,8 @@ a {text-decoration: none; color: black;}
 
 /*page3*/
 
-#page3 {height: 660px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
 .ybackbox {width: 1700px; height: 650px;
     border-radius: 25px;
     margin: 0px auto;

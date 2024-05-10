@@ -11,13 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
     
 </head>
 	<header class="yhd">
         <div class="ylogo">
-            <a href="index.html"><img src="./imgs/logo.png" alt="logo"></a>
+            <a href="/teamproject"><img src="${hpath }/imgs/logo.png" alt="logo"></a>
         </div>
         <div class="ybox">
             <ul class="ymenu">
@@ -74,6 +73,6 @@
                 </li>
             </ul>
         </div>
-        <script src="./js/indexscript.js"></script>
+        <script src="${hpath }/js/indexscript.js"></script>
     </header>
 </html>

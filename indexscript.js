@@ -1,7 +1,7 @@
 
 
 
-/*page2*/
+/*page3*/
 document.addEventListener("DOMContentLoaded", function () {
     const calendarTable = document.getElementById("calendarTable"); 
     const monthYearElement = document.getElementById("monthYear"); 
@@ -84,7 +84,7 @@ var slides = document.querySelector('.slides'),
 
     
 
-    /*page4*/
+    /*page5*/
 
     var ynoti = document.getElementById('ynoti');
     var yqna = document.getElementById('yqna');

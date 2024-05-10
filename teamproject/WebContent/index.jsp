@@ -50,7 +50,7 @@
             <div class="nori">
                 <ul class="slides">
                     <li><a href=""><img src="imgs/c1.png" alt="c1"></a></li>
-                    <li><a href=""><img src="imgs/c2.jpg" alt="c2"></a></li>
+                    <li><a href="${hpath }/nori/nori1.jsp"><img src="imgs/c2.jpg" alt="c2"></a></li>
                     <li><a href=""><img src="imgs/c3.jpg" alt="c3"></a></li>
                     <li><a href=""><img src="imgs/c4.png" alt="c4"></a></li>
                     <li><a href=""><img src="imgs/c5.jpg" alt="c5"></a></li>
@@ -80,7 +80,7 @@
 <div id="sidebar">
 	<%@ include file="/sidebar.jsp" %>
 </div>
-<div id="sidebar">
+<div id="footer">
 	<%@ include file="/footer.jsp" %>
 </div>
 <script src="./js/indexscript.js"></script>
