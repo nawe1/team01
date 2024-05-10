@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+* {margin: 0px; padding: 0px;
+font-family: "Jua", sans-serif;
+font-weight: 500;
+font-style: normal;  
+}
+body {width: 100%; overflow-x: hidden; height: 100vh;}
+ul {list-style: none;}
+a {text-decoration: none; color: black;}
+.ypage { clear:both; width: 100%;  }
+.ypage:after { content:""; display:block; width:100%; clear:both; }
+
+/*header*/
+.yhd {width: 100%; height: 90px;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    justify-content: center; 
+    background-color: rgba(226, 221, 221, 0.3);
+}
+.ylogo {width: 250px;
+}
+.ylogo img { width: 90px; height: 90px;
+    margin-left: 150px;
+}
+.ybox {flex-grow: 1;}
+.ymenu {width: 1300px;
+        display: flex;
+        margin-top: 32px;
+        text-align: center;
+}
+.item1>p {width: 180px;}
+.ymenu>li {float: left;
+        margin-left: 60px;
+        font-size: 30px;
+        color: #333;
+        text-shadow: 0px 0px 2px;
+}
+.sub li a {font-size: 20px; color: white;}
+        .item1 p>a {color: white;}
+.item1 .sub {display: none; width: 180px;}
+.ymenu:hover .sub {display: block;}
+.ymenu:hover .ylogo.ybox {background-color: #ccc;}
+
+
+/*page1*/
+#page1 {overflow-y: hidden; height: 700px; scrollbar-width: none}
+#page1 img {width: 1920px;height: 1040px; margin-top: -190px; }
+
+/*page2*/
+#page2 {height: 60px; width:1920px;
+    position: relative; 
+}
+#page2::after {
+    height: 60px; width:1920px;
+    background-image: url(../imgs/top5.1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.5;
+}
+.searchbox {width: 500px; height: 40px; margin: 0px auto;}
+#ysearch {width: 500px; height: 40px; 
+    border-radius: 20px;
+    border: 1px solid #333;
+    margin-top: 10px;
+}
+
+/*page3*/
+
+#page3 {height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ybackbox {width: 1700px; height: 650px;
+    border-radius: 25px;
+    margin: 0px auto;
+    margin-top: 5px;
+    background-color: rgba(226, 221, 221, 0.3);
+    display: flex;
+}
+.nori  {width: 2400px; height: 600px;
+    margin-top: 25px;
+    margin-left: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.slides img {width: 300px; height: 435px;
+    border-radius: 20px;
+}
+.slides {position: absolute;
+    left: 0; top: 0;
+    width: 2400px;
+    height: 450px;
+    overflow: hidden;
+    transition: left 0.5s ease-in-out;
+}
+.slides li {float: left;
+    width: 300px; height: 435px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.slides.animated {
+    transition: 0.5s ease-out;
+}
+
+.ybtn {width: 60px; height: 30px;}
+#prev {margin-top: 525px; margin-left: 550px;}
+
+.mal {float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.calendar {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    width: 300px;
+    }
+    .calendar-container {
+    border: 3px solid #333;
+    border-radius: 8px;
+    width: 300px;
+    height: 370px;
+    margin-top: 100px;
+    margin-left: 100px;
+    }
+    .cheader {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    #calendarTable {
+    width: 100%;
+    }
+    th, td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    }
+    /* 토요일에 파란색 적용 */
+    td:nth-child(7n) {
+        color: blue;
+    }
+
+    /* 일요일에 빨간색 적용 */
+    td:nth-child(7n+1) {
+        color: red;
+    }
+    /* 토요일에 파란색 적용 */
+    th:nth-child(7n) {
+        color: blue;
+    }
+
+    /* 일요일에 빨간색 적용 */
+    th:nth-child(7n+1) {
+        color: red;
+    }
+    .sday {color: #4caf50;
+        border-radius: 40px;
+        background-color: aqua;
+        
+    }
+    #cprevBtn,#cnextBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    }
+
+/*page4*/
+#page4 {height: 650px; overflow: hidden;
+    margin: 0px; padding: 0px;
+}
+.ybox3 img {width: 634px; height: 650px;}
+.ybox3 {width: 2600px;
+    display: flex;
+}
+    
+
+/*page5*/
+#page5 {background-image: url(../imgs/bimg.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    position: relative;
+}
+.ybox5 {border: 1px solid #333;
+    border-radius: 15px;
+    background-color: aquamarine;
+    width: 720px; height: 500px;
+    float: left;
+    position: absolute;
+    top: 75px;
+}
+#ynoti {animation: slide 1.5s ease-in-out;
+    left: 130px;
+}
+#yqna {animation:  slide2 2s ease-in-out;
+    right: 130px;
+}
+
+@keyframes slide {
+    from{
+        left: -100px;
+        opacity: 0;
+    }
+    to{
+        left: 130px;
+        opacity: 1;
+    }
+}
+@keyframes slide2 {
+    from{
+        right: 2000px;
+        opacity: 0;
+    }
+    to{
+        right: 130px;
+        opacity: 1;
+    }
+}
+@keyframes disappear {
+    from {
+        left: 130px;
+        opacity: 1;
+    }to {
+        left: -100px;
+        opacity: 0;
+    }
+}
+@keyframes disappear2 {
+    from {
+        right: 130px;
+        opacity: 1;
+    }to {
+        right: 2000px;
+        opacity: 0;
+    }
+}
+/*footer*/
+footer {width: 100%; height: 250px;
+    background-color: #333;
+}

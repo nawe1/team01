@@ -48,11 +48,11 @@ a {text-decoration: none; color: black;}
 #page1 img {width: 1920px;height: 1040px; margin-top: -190px; }
 
 /*page2*/
-#page2 {height: 40px; width:1920px;
+#page2 {height: 60px; width:1920px;
     position: relative; 
 }
 #page2::after {
-    height: 40px; width:1920px;
+    height: 60px; width:1920px;
     background-image: url(./imgs/top5.1.JPG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,19 +66,19 @@ a {text-decoration: none; color: black;}
 #ysearch {width: 500px; height: 40px; 
     border-radius: 20px;
     border: 1px solid #333;
+    margin-top: 10px;
 }
 
 /*page3*/
 
-#page3 {height: 700px;
-    
+#page3 {height: 660px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .ybackbox {width: 1700px; height: 650px;
     border-radius: 25px;
     margin: 0px auto;
-    margin-top: 25px;
+    margin-top: 5px;
     background-color: rgba(226, 221, 221, 0.3);
     display: flex;
 }
@@ -111,6 +111,32 @@ a {text-decoration: none; color: black;}
 
 .ybtn {width: 60px; height: 30px;}
 #prev {margin-top: 525px; margin-left: 550px;}
+
+.mal {float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
 .calendar {
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -124,9 +150,9 @@ a {text-decoration: none; color: black;}
     border: 3px solid #333;
     border-radius: 8px;
     width: 300px;
-    height: 600px;
-    margin-top: 75px;
-    margin-left: 75px;
+    height: 370px;
+    margin-top: 100px;
+    margin-left: 100px;
     }
     .cheader {
     background-color: #f2f2f2;
@@ -134,7 +160,6 @@ a {text-decoration: none; color: black;}
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border: 3px solid #333;
     }
     #calendarTable {
     width: 100%;
