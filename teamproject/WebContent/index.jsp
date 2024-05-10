@@ -12,29 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/index.css">
 <title>Insert title here</title>
-	<style>
-		/*page5*/
-		#page5 {background-image: url(imgs/bimg.JPG);
-		    background-repeat: no-repeat;
-		    background-position: center;
-		    height: 650px;
-		    position: relative;
-		}
-		.ybox5 {border: 1px solid #333;
-		    border-radius: 15px;
-		    background-color: aquamarine;
-		    width: 720px; height: 500px;
-		    float: left;
-		    position: absolute;
-		    top: 75px;
-		}
-		#ynoti {animation: slide 1.5s ease-in-out;
-		    left: 130px;
-		}
-		#yqna {animation:  slide2 2s ease-in-out;
-		    right: 130px;
-		}
-	</style>
+	
 </head>
 <body>
 <div id="header">
