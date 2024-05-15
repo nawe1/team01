@@ -264,7 +264,9 @@ a {text-decoration: none; color: black;}
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    box-shadow: 0 0 10px gray;
     }
+    #cprevBtn:hover,#cnextBtn:hover {background-color: #4d574d;}
 
 /*page4*/
 #page4 {height: 650px; overflow: hidden;
