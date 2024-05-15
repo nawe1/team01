@@ -30,14 +30,14 @@
     <section class="ypage" id="ypage2">
         <div class="ytextbox">
             <textarea class="ytext">
-                border 삭제 할거야
             2024년 석곡기념관 교육프로그램
             시민창작시극 「詩를 통해 석곡을 만나다」 공연 안내
-            • 일       시 : 4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00
-            • 대       상 : 시민 누구나(회당 50명 내외)
-            • 장       소 : 석곡기념관 소강당
-            • 주요내용 : 석곡기념관 자원봉사자들이 시극으로 재구성한 석곡 이규준 선생의 삶과 가르침
-            • 문       의 : 054-270-2559
+            📌 일       시 : 4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00
+            📌 대       상 : 시민 누구나(회당 50명 내외)
+            📌 장       소 : 석곡기념관 소강당
+            📌 이  용  료 : 무료
+            📌 주요내용 : 석곡기념관 자원봉사자들이 시극으로 재구성한 석곡 이규준 선생의 삶과 가르침
+            📌 문       의 : 054-270-2559
             ※ 단체 관람을 원하실 경우 반드시 전화 연락바랍니다.
             </textarea>
         </div>
@@ -66,8 +66,17 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <textarea class="ytext1">
-            	이부분은 정리할거야
+포항 석곡 기념관 찾아 오시는 길
+
+📌위치: 경북 포항시 남구 동해면 도구리 607
+
+📌주차장: 무료
         </textarea>
+    </section>
+     <section class="ypage" id="ypage5">
+        <div class="mokrok">
+            <button class="mok"><a href="">목록으로 가기</a></button>
+        </div>
     </section>
 <div id="sidebar">
 	<%@ include file="/sidebar.jsp" %>

@@ -59,10 +59,10 @@
             <div class="nori">
                 <ul class="slides">
                     <li><a href="${hpath }/nori/nori1.jsp"><img src="imgs/c2.jpg" alt="c2"></a></li>
-                    <li><a href="${hpath }/nori/nori2.jsp"><img src="imgs/c3.jpg" alt="c3"></a></li>
-                    <li><a href="${hpath }/nori/nori3.jsp"><img src="imgs/c4.png" alt="c4"></a></li>
-                    <li><a href="${hpath }/nori/nori4.jsp"><img src="imgs/c5.jpg" alt="c5"></a></li>
-                    <li><a href="${hpath }/nori/nori5.jsp"><img src="imgs/c6.png" alt="c6"></a></li>
+                    <li><a href="${hpath }/nori/nori2.jsp"><img src="imgs/c4.png" alt="c4"></a></li>
+                    <li><a href="${hpath }/nori/nori3.jsp"><img src="imgs/c6.png" alt="c6"></a></li>
+                    <li><a href="${hpath }/nori/nori4.jsp"><img src="imgs/c5.png" alt="c5"></a></li>
+                    <li><a href="${hpath }/nori/nori5.jsp"><img src="imgs/c3.jpg" alt="c6"></a></li>
                     <li><a href="${hpath }/nori/nori6.jsp"><img src="imgs/c7.jpg" alt="c7"></a></li>
                     <li><a href="${hpath }/nori/nori7.jsp"><img src="imgs/c8.jpg" alt="c8"></a></li>
                     <li><a href="${hpath }/nori/nori8.jsp"><img src="imgs/c9.jpg" alt="c9"></a></li>
