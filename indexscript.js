@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         
         for (let day=1; day <= daysInMonth; day++) {
-            if (currentDate.getMonth() === 4 && [3, 6, 9].includes(day)) {
+            if (currentDate.getMonth() === 4 && [3, 6, 9,12,15,19,22].includes(day)) {
                 // 5월 3일에 해당하는 요소에 클래스 추가
                 tableContent += '<td class="sday">' + day + '</td>';
             } else {

@@ -6,10 +6,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 	<script src="https://kit.fontawesome.com/c1fb985d35.js" crossorigin="anonymous"></script>
     <title>힐링의 도시 포항시</title>
-    
+   <style>
+    .item1 a::after {display: block;
+        content: "";
+        border-bottom: solid 2px tomato;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;    
+    }
+    .item1 a:hover::after {transform: scaleX(1);}
+   </style>
 </head>
 <body>
     <header class="yhd">
@@ -73,15 +82,21 @@
         </div>
     </header>
     <section class="ypage" id="page1">
+        <p class="city">힐링의 도시 포항</p>
+        <p class="wel"> &nbsp;&nbsp; w e l c o m e!</p>
         <div class="ypg">
-            <img src="./imgs/top05.JPG" alt="">
+            <img src="./imgs/top07.JPG" alt="">
         </div>
         
     </section>
     <section class="ypage" id="page2">
-        
         <div class="searchbox">
-        <input type="search" id="ysearch" name="ysearch" placeholder="검색어를 입력해주세요.">
+            <form action="" method="">
+                <input type="search" id="ysearch" name="ysearch" placeholder="검색어를 입력해주세요.">
+                <button class="ysearchbtn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
         </div>
     </section>
     <section class="ypage" id="page3">
@@ -89,7 +104,7 @@
             <div class="ybox1">
                 <div class="mal">
                     <div class="speech-bubble">
-                        <h1>이번달 공연일<br>한 눈에 보기!!</h1>
+                        <h2><p style="font-size: 33px;">&nbsp;&nbsp;이번달</p>&nbsp;&nbsp;공연일 한눈에 보기!!&nbsp;&nbsp;<br></h2>
                     </div>
                 </div>
                 <div class="calendar-container">
@@ -137,4 +152,27 @@
     </footer>
     <script src="indexscript.js"></script>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            var depth1 = $(".item1"),
+                header = $("header");
+
+                //depth1에 hover header 길이를 300px
+            depth1.mouseenter(function(){
+                header.stop().animate({height:"330px"});
+            }).mouseleave(function(){
+                header.stop().animate({height:"90px"})
+            })
+                //depth1에 hover header 높이를 90px
+        })
+        $(".item1 > p > a").hover(
+                function() {
+                    $(".yhd").css("background-color", "#00aabb");
+                },
+                function() {
+                    $(".yhd").css("background-color", "");
+                }
+            );
+    </script>
 </html>

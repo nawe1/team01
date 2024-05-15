@@ -1,7 +1,28 @@
 
+/*header*/
 
+$(function(){
+            var depth1 = $(".item1"),
+                header = $("header");
 
-/*page2*/
+                //depth1에 hover header 길이를 300px
+            depth1.mouseenter(function(){
+                header.stop().animate({height:"330px"})
+            }).mouseleave(function(){
+                header.stop().animate({height:"90px"})
+            })
+                //depth1에 hover header 높이를 90px
+        });
+        $(".item1 ").hover(
+                function() {
+                    $(".yhd").css("background-color", "#6C7A89");
+                },
+                function() {
+                    $(".yhd").css("background-color", "");
+                }
+            );
+
+/*page3*/
 document.addEventListener("DOMContentLoaded", function () {
     const calendarTable = document.getElementById("calendarTable"); 
     const monthYearElement = document.getElementById("monthYear"); 
@@ -21,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         
         for (let day=1; day <= daysInMonth; day++) {
-            if (currentDate.getMonth() === 4 && [3, 6, 9].includes(day)) {
+            if (currentDate.getMonth() === 4 && [3, 5, 7,10,11,12,13,17,19,24,25,26,29,31].includes(day)) {
                 // 5월 3일에 해당하는 요소에 클래스 추가
                 tableContent += '<td class="sday">' + day + '</td>';
             } else {
@@ -84,7 +105,7 @@ var slides = document.querySelector('.slides'),
 
     
 
-    /*page4*/
+    /*page5*/
 
     var ynoti = document.getElementById('ynoti');
     var yqna = document.getElementById('yqna');

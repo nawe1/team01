@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0px; padding: 0px;}
+        ul,li {list-style: none;}
+        a {text-decoration: none; color: black;}
+        .blind {display: block;
+            overflow: hidden;
+            position: absolute;
+            border: 0;
+            width: 1px;
+            height: 1px;
+            clip: rect(1px,1px,1px,1px);
+        }
+        .clear:after {content: ""; display: block; clear: both;}
+        .ylogo img { width: 90px; height: 90px;}
+        header {background: linear-gradient(white 90px, rgba(255,255,255,0.5) 90px, rgba(255,255,255,0.5));
+            height: 90px;
+            overflow: hidden;
+            position: absolute;
+            left: 0;right: 0;top: 0;
+            background-color: aqua;
+            position: fixed;
+        }
+        
+        header:after {content: "";
+            position: absolute; top: 90px;left: 0;
+            background: #666;
+            width: 100%;
+            height: 2px;
+        }
+
+        .inner {width: 1200px; margin: 0 auto;}
+        h1 {float: left;}
+        nav {position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+        .gnb > li {float: left; line-height: 50px;}
+        .gnb > li >p > a span {padding: 0 20px; color: #666;
+            position: relative;
+        }
+        .gnb > li >p {height: 90px;}
+        .gnb > li > p> a span:after {content: "";
+            width: 0;
+            height: 2px;
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            bottom: -14px;
+            transition: all .5s;
+        }
+        .gnb > li:hover span:after {width: 100%; left: 0;}
+        nav > ul > li ul {width: 100%;}
+        .testpage {height: 2000px; width: 100%;
+            background-color: aqua;
+        }
+        h1 { z-index: 9999;
+            top: 300px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="ylogo">
+                <a href="index.html"><img src="./imgs/logo.png" alt="logo"></a>
+            </div>
+            <nav>
+                <ul class="gnb clear">
+                    <li class="item1">
+                        <p><a href=""><span>권역별 관광</span></a></p> 
+                        <ul class="sub">
+                            <li><a href="" class="dp2">북부권</a></li>
+                            <li><a href="" class="dp2">남부권</a></li>
+                            <li><a href="" class="dp2">도심권</a></li>
+                        </ul>
+                    </li>
+                    <li class="item1">
+                        <p><a href=""><span>코스추천</span></a></p> 
+                        <ul class="sub">
+                            <li><a href="" class="dp2">코스1</a></li>
+                            <li><a href="" class="dp2">코스2</a></li>
+                            <li><a href="" class="dp2">코스3</a></li>
+                            <li><a href="" class="dp2">코스4</a></li>
+                            <li><a href="" class="dp2">코스5</a></li>
+                        </ul>
+                    </li>
+                    <li class="item1">
+                        <p><a href=""><span>맛&nbsp;&nbsp;집</span></a></p> 
+                        <ul class="sub">
+                            <li><a href="" class="dp2">음식점</a></li>
+                            <li><a href="" class="dp2">카페</a></li>
+                        </ul>
+                    </li>
+                    <li class="item1">
+                        <p><a href=""><span>숙&nbsp;&nbsp;박</span></a></p> 
+                        <ul class="sub">
+                            <li><a href="" class="dp2">호텔</a></li>
+                            <li><a href="" class="dp2">펜션</a></li>
+                            <li><a href="" class="dp2">캠핑</a></li>
+                        </ul>
+                    </li>
+                    <li class="item1">
+                        <p><a href=""><span>커뮤니티</span></a></p> 
+                        <ul class="sub">
+                            <li><a href="" class="dp2">공지사항</a></li>
+                            <li><a href="" class="dp2">자유게시판</a></li>
+                            <li><a href="" class="dp2">고객센터</a></li>
+                        </ul>
+                    </li>
+                    <li class="item1">
+                        <p><a href=""><span>마이페이지</span></a></p> 
+                        <ul class="sub">
+                            <li><a href="" class="dp2">로그인</a></li>
+                            <li><a href="" class="dp2">회원가입</a></li>
+                            <li><a href="" class="dp2">회원정보</a></li>
+                            <li><a href="" class="dp2">메뉴4</a></li>
+                            <li><a href="" class="dp2">메뉴5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="testpage">
+        <h1>sdfsdfsdfsdf</h1>
+        <h1>sdfsdfsdfsdf</h1>
+        <img src="./imgs/c1.png" alt="">
+    </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            var depth1 = $(".item1"),
+                header = $("header");
+
+                //depth1에 hover header 길이를 300px
+            depth1.mouseenter(function(){
+                header.stop().animate({height:"300px"});
+            }).mouseleave(function(){
+                header.stop().animate({height:"90px"})
+            })
+                //depth1에 hover header 높이를 90px
+        })
+    </script>
+</html>

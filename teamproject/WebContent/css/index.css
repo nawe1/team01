@@ -15,9 +15,10 @@ a {text-decoration: none; color: black;}
 .yhd {width: 100%; height: 90px;
     display: flex;
     position: fixed;
-    z-index: 9999;
+    overflow: hidden;
     justify-content: center; 
     background-color: rgba(226, 221, 221, 0.3);
+    z-index: 9999;
 }
 .ylogo {width: 250px;
 }
@@ -39,14 +40,45 @@ a {text-decoration: none; color: black;}
 }
 .sub li a {font-size: 20px; color: white;}
         .item1 p>a {color: white;}
-.item1 .sub {display: none; width: 180px;}
-.ymenu:hover .sub {display: block;}
-.ymenu:hover .ylogo.ybox {background-color: #ccc;}
-
+.sub {height: 0px; width: 180px; overflow: hidden;}
+.sub>li {height: 50px; }
+.ymenu:hover .sub {height: 250px;
+    transition-duration: 1s;
+}
+.item1 a::after {display: block;
+        content: "";
+        border-bottom: solid 2px tomato;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;    
+    }
+    .item1 a:hover::after {transform: scaleX(1);}
 
 /*page1*/
 #page1 {overflow-y: hidden; height: 700px; scrollbar-width: none}
-#page1 img {width: 1920px;height: 1040px; margin-top: -190px; }
+#page1 img {width: 1920px;height: 1040px; margin-top: 00px; }
+
+.wel {position: absolute;
+    left: 50%;
+    top: 270px;
+    text-align: center;
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0px 0px 10px gray;
+}
+.city {position: absolute;
+    left: 50%;
+    top: 150px;
+    text-align: center;
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: white;
+    text-shadow: 0px 0px 10px gray;
+}
 
 /*page2*/
 #page2 {height: 60px; width:1920px;
@@ -54,7 +86,7 @@ a {text-decoration: none; color: black;}
 }
 #page2::after {
     height: 60px; width:1920px;
-    background-image: url(../imgs/top5.1.JPG);
+    background-image: url(../imgs/top07.1.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -63,11 +95,26 @@ a {text-decoration: none; color: black;}
     z-index: -1;
     opacity: 0.5;
 }
-.searchbox {width: 500px; height: 40px; margin: 0px auto;}
-#ysearch {width: 500px; height: 40px; 
+.searchbox {width: 600px; height: 40px;
+    position: relative;
+    margin: auto;
+}
+#ysearch {width: 100%; height: 40px; 
     border-radius: 20px;
     border: 1px solid #333;
     margin-top: 10px;
+    position: absolute;
+    box-shadow: 0 0 10px;
+}
+.ysearchbtn {float: right;
+    border-radius: 50%;
+    border: none;
+    font-size: 28px;
+    background: white;
+    position: absolute;
+    height: 20px;
+    top: 15px;
+    right: 10px
 }
 
 /*page3*/
@@ -87,8 +134,9 @@ a {text-decoration: none; color: black;}
     overflow: hidden;
     position: relative;
 }
-.slides img {width: 300px; height: 435px;
+.slides img {width: 300px; height: 425px;
     border-radius: 20px;
+    box-shadow: 0 0 10px;
 }
 .slides {position: absolute;
     left: 0; top: 0;
@@ -117,8 +165,10 @@ a {text-decoration: none; color: black;}
 }
 .speech-bubble {
 	position: relative;
-	background: #00aabb;
-	border-radius: .4em;
+	background: #E2495B;
+    color: antiquewhite;
+	border-radius: 50px;
+    box-shadow: 0 0 10px;
 }
 
 .speech-bubble:after {
@@ -129,7 +179,7 @@ a {text-decoration: none; color: black;}
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
-	border-top-color: #00aabb;
+	border-top-color: #E2495B;
 	border-bottom: 0;
 	border-right: 0;
 	margin-left: -10px;
@@ -152,6 +202,7 @@ a {text-decoration: none; color: black;}
     height: 370px;
     margin-top: 100px;
     margin-left: 100px;
+    box-shadow: 0 0 10px;
     }
     .cheader {
     background-color: #f2f2f2;
@@ -186,13 +237,13 @@ a {text-decoration: none; color: black;}
     th:nth-child(7n+1) {
         color: red;
     }
-    .sday {color: #4caf50;
+    .sday {color: black;
         border-radius: 40px;
-        background-color: aqua;
+        background-color: #F4ED6E;
         
     }
     #cprevBtn,#cnextBtn {
-    background-color: #4caf50;
+    background-color: #353a35;
     color: white;
     border: none;
     padding: 8px 16px;
