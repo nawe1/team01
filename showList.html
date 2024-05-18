@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="showList.css">
+    <title>Document</title>
+    <style>
+        * {margin: 0px; padding: 0px;
+        font-family: "Jua", sans-serif;
+        font-weight: 500;
+        font-style: normal;  
+        }
+        body {width: 100%; overflow-x: hidden; height: 100vh;}
+        ul {list-style: none;}
+        a {text-decoration: none; color: black;}
+        .yspage { clear:both; width: 100%; margin-top: 50px;}
+        .yspage:after { content:""; display:block; width:100%; clear:both; }
+        #showlist1 {height: 10px;}
+        .listbox1 { width: 1200px; height: 500px;
+            display: flex;
+            border-radius: 25px;
+            margin: 0px auto;
+            margin-top: 5px;
+            background-color: rgba(226, 221, 221, 0.8);
+            box-shadow: 0 0 10px;
+        }
+        .pimg {margin-left: 50px;
+            margin-top: 33px;
+        }
+        .pimg img {width: 300px; height: 425px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px;
+        }
+        .scontent th {border: 1px solid #333;
+            border-radius: 20px;
+            width: 80px;
+            background-color: gray;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        .scontent td {font-weight: 600;}
+        .scontent p {font-size: 30px;}
+        .scontent h4 {border: 1px solid #333;
+            border-radius: 20px;
+            width: 60px; height: 25px;
+            text-align: center;
+            background-color: rgb(86, 223, 138);
+            font-weight: 800;
+        }
+        .scontent {margin-left: 50px;
+            margin-top: 80px;
+        }
+        .ysgo {border: none;
+        border-radius: 20px;
+        width: 130px; height: 40px;
+        margin-top: 100px;
+        margin-left: 600px;
+        background-color: rgb(9, 104, 228);
+        box-shadow: 0 0 10px;
+        }
+        .ysgo:hover {background-color: rgb(4, 77, 172);}
+        .ysgo a {
+            font-weight: 600;
+            font-size: 25px;
+            color: white;
+        }
+        /*paginate*/
+        #showlist6 {margin-bottom: 50px;}
+        .ypage_wrap {
+            text-align:center;
+            font-size:0;
+        }
+        .ypage_nation {
+            display:inline-block;
+        }
+        .ypage_nation .none {
+            display:none;
+        }
+        .ypage_nation a {
+            display:block;
+            margin:0 3px;
+            float:left;
+            border:1px solid #e6e6e6;
+            width:28px;
+            height:28px;
+            line-height:28px;
+            text-align:center;
+            background-color:#fff;
+            font-size:13px;
+            color:#999999;
+            text-decoration:none;
+        }
+        .ypage_nation .arrow {
+            border:1px solid #ccc;
+        }
+        .ypage_nation .pprev {
+            background:#f8f8f8 url('imgs/page_pprev.png') no-repeat center center;
+            margin-left:0;
+        }
+        .ypage_nation .prev {
+            background:#f8f8f8 url('imgs/page_prev.png') no-repeat center center;
+            margin-right:7px;
+        }
+        .ypage_nation .next {
+            background:#f8f8f8 url('imgs/page_next.png') no-repeat center center;
+            margin-left:7px;
+        }
+        .ypage_nation .nnext {
+            background:#f8f8f8 url('imgs/page_nnext.png') no-repeat center center;
+            margin-right:0;
+        }
+        .ypage_nation a.active {
+            background-color:#42454c;
+            color:#fff;
+            border:1px solid #42454c;
+        }
+    </style>
+</head>
+<body>
+        <section class="yspage" id="showlist1">
+            &nbsp;
+        </section>
+        <section class="ypage" id="showlist2">
+            <div class="listbox1">
+                <div class="pimg">
+                    <img src="./imgs/c1.png" alt="s1">
+                </div>
+                <div class="scontent">
+                    <h4>진행중</h4> <br>
+                    <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                    <table>
+                        <tr>
+                            <th>일 시</th>
+                            <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                        </tr>
+                        <tr>
+                            <th>대 상</th>
+                            <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                        </tr>
+                        <tr>
+                            <th>장 소</th>
+                            <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                        </tr>
+                        <tr>
+                            <th>이 용 료</th>
+                            <td>&nbsp;&nbsp;&nbsp;무료</td>
+                        </tr>
+                    </table>
+                    <button class="ysgo"><a href="">상세보기</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="yspage" id="showlist3">
+            <div class="listbox1">
+                <div class="pimg">
+                    <img src="./imgs/c1.png" alt="s1">
+                </div>
+                <div class="scontent">
+                    <h4>진행중</h4> <br>
+                    <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                    <table>
+                        <tr>
+                            <th>일 시</th>
+                            <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                        </tr>
+                        <tr>
+                            <th>대 상</th>
+                            <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                        </tr>
+                        <tr>
+                            <th>장 소</th>
+                            <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                        </tr>
+                        <tr>
+                            <th>이 용 료</th>
+                            <td>&nbsp;&nbsp;&nbsp;무료</td>
+                        </tr>
+                    </table>
+                    <button class="ysgo"><a href="">상세보기</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="yspage" id="showlist4">
+            <div class="listbox1">
+                <div class="pimg">
+                    <img src="./imgs/c1.png" alt="s1">
+                </div>
+                <div class="scontent">
+                    <h4>진행중</h4> <br>
+                    <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                    <table>
+                        <tr>
+                            <th>일 시</th>
+                            <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                        </tr>
+                        <tr>
+                            <th>대 상</th>
+                            <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                        </tr>
+                        <tr>
+                            <th>장 소</th>
+                            <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                        </tr>
+                        <tr>
+                            <th>이 용 료</th>
+                            <td>&nbsp;&nbsp;&nbsp;무료</td>
+                        </tr>
+                    </table>
+                    <button class="ysgo"><a href="">상세보기</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="yspage" id="showlist5">
+            <div class="listbox1">
+                <div class="pimg">
+                    <img src="./imgs/c1.png" alt="s1">
+                </div>
+                <div class="scontent">
+                    <h4>진행중</h4> <br>
+                    <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                    <table>
+                        <tr>
+                            <th>일 시</th>
+                            <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                        </tr>
+                        <tr>
+                            <th>대 상</th>
+                            <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                        </tr>
+                        <tr>
+                            <th>장 소</th>
+                            <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                        </tr>
+                        <tr>
+                            <th>이 용 료</th>
+                            <td>&nbsp;&nbsp;&nbsp;무료</td>
+                        </tr>
+                    </table>
+                    <button class="ysgo"><a href="">상세보기</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="yspage" id="showlist6">
+            <div class="ypage_wrap">
+                <div class="ypage_nation">
+                <a class="arrow pprev" href="#"></a>
+                <a class="arrow prev" href="#"></a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a class="arrow next" href="#"></a>
+                <a class="arrow nnext" href="#"></a>
+                </div>
+            </div>
+        </section>
+</body>
+</html>

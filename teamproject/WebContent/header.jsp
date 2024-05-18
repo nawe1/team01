@@ -30,13 +30,9 @@
                     </ul>
                 </li>
                 <li class="item1">
-                    <p><a href="">코스추천</a></p> 
+                    <p><a href="">공&nbsp;&nbsp;연</a></p> 
                     <ul class="sub">
-                        <li><a href="" class="dp2">코스1</a></li>
-                        <li><a href="" class="dp2">코스2</a></li>
-                        <li><a href="" class="dp2">코스3</a></li>
-                        <li><a href="" class="dp2">코스4</a></li>
-                        <li><a href="" class="dp2">코스5</a></li>
+                        <li><a href="${hpath }/nori/showList.jsp" class="dp2">공연 목록</a></li>
                     </ul>
                 </li>
                 <li class="item1">

@@ -68,7 +68,7 @@
     </section>
      <section class="ypage" id="ypage5">
         <div class="mokrok">
-            <button class="mok"><a href="">목록으로 가기</a></button>
+            <button class="mok"><a href="showList.jsp">목록으로 가기</a></button>
         </div>
     </section>
 <div id="sidebar">

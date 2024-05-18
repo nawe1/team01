@@ -54,7 +54,7 @@ a {text-decoration: none; color: black;}
     }
     .item1 a:hover::after {transform: scaleX(1);}
 
-#ypage0 {height: 10px;}
+#ypage0 {height: 100px;}
 /*page1*/
 #ypage1 {height: 950px;}
 .yposter {text-align: center;

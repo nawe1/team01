@@ -21,7 +21,7 @@
             border: 2px solid #333;
             border-radius: 20px 6px 6px 30px;
             width: 80px; height: 300px;
-            top: 150px;
+            top: 350px;
             right: 0px; /*position은 margin-right는 적용 안되고 x y 로 적용해야됨*/
             position: fixed;
             background-color: rgba(226, 221, 221, 0.3);
