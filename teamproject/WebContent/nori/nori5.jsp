@@ -73,9 +73,6 @@
             <button class="mok"><a href="showList2.jsp">목록으로 가기</a></button>
         </div>
     </section>
-<div id="sidebar">
-	<%@ include file="/sidebar.jsp" %>
-</div>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>
 </div>    

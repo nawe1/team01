@@ -154,9 +154,6 @@
                </div>
            </div>
        </section>
-<div id="sidebar">
-	<%@ include file="/sidebar.jsp" %>
-</div>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>
 </div>      
