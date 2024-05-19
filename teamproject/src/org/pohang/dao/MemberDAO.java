@@ -1,5 +1,6 @@
 package org.pohang.dao;
 
+<<<<<<< HEAD
 
 
 import java.sql.Connection;
@@ -150,3 +151,8 @@ public class MemberDAO {
 		return ck;
 	}
 }
+=======
+public class MemberDAO {
+
+}
+>>>>>>> 5194bf1fec2cb834720356853f9c4028ced5c9e9

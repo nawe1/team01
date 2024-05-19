@@ -1,5 +1,6 @@
 package org.pohang.ctrl.admin;
 
+<<<<<<< HEAD
 
 import java.io.IOException;
 
@@ -32,3 +33,8 @@ public class AdminMainCtrl extends HttpServlet {
 		}
 	}
 }
+=======
+public class AdminMainCtrl {
+
+}
+>>>>>>> 5194bf1fec2cb834720356853f9c4028ced5c9e9

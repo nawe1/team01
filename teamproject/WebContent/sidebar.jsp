@@ -1,8 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %> 
 <c:set var="hpath" value="<%=request.getContextPath() %>" />
+=======
+>>>>>>> 5194bf1fec2cb834720356853f9c4028ced5c9e9
 <!DOCTYPE html>
 <html lang="en">
 <head>
