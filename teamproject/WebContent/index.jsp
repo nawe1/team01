@@ -63,10 +63,11 @@
                     <li><a href="${hpath }/nori/nori3.jsp"><img src="imgs/c6.png" alt="c6"></a></li>
                     <li><a href="${hpath }/nori/nori4.jsp"><img src="imgs/c5.png" alt="c5"></a></li>
                     <li><a href="${hpath }/nori/nori5.jsp"><img src="imgs/c3.jpg" alt="c3"></a></li>
-                    <li><a href="${hpath }/nori/nori6.jsp"><img src="imgs/c7.jpg" alt="c7"></a></li>
-                    <li><a href="${hpath }/nori/nori7.jsp"><img src="imgs/c8.jpg" alt="c8"></a></li>
-                    <li><a href="${hpath }/nori/nori8.jsp"><img src="imgs/c9.jpg" alt="c9"></a></li>
-                    <li><a href="${hpath }/nori/nori9.jsp"><img src="imgs/c1.jpg" alt="c1"></a></li>
+                    <li><a href="${hpath }/nori/nori6.jsp"><img src="imgs/c1.png" alt="c1"></a></li>
+                    <li><a href="${hpath }/nori/nori7.jsp"><img src="imgs/c.JPG" alt="c1"></a></li>
+                    <li><a href="${hpath }/nori/nori8.jsp"><img src="imgs/c7.jpg" alt="c7"></a></li>
+                    <li><a href="${hpath }/nori/nori9.jsp"><img src="imgs/c8.jpg" alt="c8"></a></li>
+                    <li><a href="${hpath }/nori/nori10.jsp"><img src="imgs/c2.jpg" alt="c10"></a></li>
                 </ul>
                 <button type="button" class="ybtn" id="prev">prev</button>
                 <button type="button" class="ybtn" id="next">next</button>
@@ -74,15 +75,18 @@
         </div>
     </section>
     <section class="ypage" id="page4">
-            <div class="ybox3">
-                <img src="imgs/top01.png" alt="">
-                <img src="imgs/top03.JPG" alt="">
-                <img src="imgs/top04.JPG" alt="">
+            <div class="ycity">
+                <p id="ybok">북부권</p>
+                <p id="ydo">도심권</p>
+                <p id="ynam">남부권</p>
             </div>
-        
+            <div class="ybox3">
+                <a href=""><img src="./imgs/top01.png" alt=""></a>
+                <a href=""><img src="./imgs/top03.JPG" alt=""></a>
+                <a href=""><img src="./imgs/top04.JPG" alt=""></a>
+            </div>
     </section>
     <section class="ypage" id="page5">
-        <hr>
         <div class="ybox5" id="ynoti"></div>
         <div class="ybox5" id="yqna"></div>
     </section>

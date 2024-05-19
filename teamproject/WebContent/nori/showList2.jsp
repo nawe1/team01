@@ -28,23 +28,23 @@
                </div>
                <div class="scontent">
                    <h4>진행중</h4> <br>
-                   <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                   <p>포항CBS 2024 포항사랑 힐링콘서트</p> <br>
                    <table>
                        <tr>
                            <th>일 시</th>
-                           <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                           <td>&nbsp;&nbsp;&nbsp;2024년 5월 13일(월) 19시 </td>
                        </tr>
                        <tr>
                            <th>대 상</th>
-                           <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                           <td>&nbsp;&nbsp;&nbsp;추첨 초대권 보유자</td>
                        </tr>
                        <tr>
                            <th>장 소</th>
-                           <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                           <td>&nbsp;&nbsp;&nbsp;효자아트홀</td>
                        </tr>
                        <tr>
                            <th>이 용 료</th>
-                           <td>&nbsp;&nbsp;&nbsp;무료</td>
+                           <td>&nbsp;&nbsp;&nbsp;본 공연은 포항CBS 홈페이지에서 사전 신청하셔야 합니다</td>
                        </tr>
                    </table>
                    <button class="ysgo"><a href="nori5.jsp">상세보기</a></button>
@@ -54,23 +54,23 @@
        <section class="yspage" id="showlist3">
            <div class="listbox1">
                <div class="pimg">
-                   <img src="${hpath }/imgs/c4.png" alt="s1">
+                   <img src="${hpath }/imgs/c1.png" alt="s1">
                </div>
                <div class="scontent">
                    <h4>진행중</h4> <br>
-                   <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                   <p>꿈의 오케스트라 포항 찾아가는 음악회 (우리는 바다입니다)</p> <br>
                    <table>
                        <tr>
                            <th>일 시</th>
-                           <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                           <td>&nbsp;&nbsp;&nbsp;2024-05-25(토) 17:00 </td>
                        </tr>
                        <tr>
                            <th>대 상</th>
-                           <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                           <td>&nbsp;&nbsp;&nbsp;전체관람가</td>
                        </tr>
                        <tr>
                            <th>장 소</th>
-                           <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                           <td>&nbsp;&nbsp;&nbsp;구룡포 방파제 일원(해양미식축제 마켓피어나인 행사장 내)</td>
                        </tr>
                        <tr>
                            <th>이 용 료</th>
@@ -84,23 +84,23 @@
        <section class="yspage" id="showlist4">
            <div class="listbox1">
                <div class="pimg">
-                   <img src="${hpath }/imgs/c6.png" alt="s1">
+                   <img src="${hpath }/imgs/c.JPG" alt="s1">
                </div>
                <div class="scontent">
                    <h4>진행중</h4> <br>
-                   <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                   <p>2024 행복 양육을 위한 토크콘서트 「Mommy 행복한 오늘」</p> <br>
                    <table>
                        <tr>
                            <th>일 시</th>
-                           <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                           <td>&nbsp;&nbsp;&nbsp;2024. 5. 29.(수) 10:00 ~ 12:00</td>
                        </tr>
                        <tr>
                            <th>대 상</th>
-                           <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                           <td>&nbsp;&nbsp;&nbsp;관내 학부모 및 예비학부모, 교육 관련 종사자</td>
                        </tr>
                        <tr>
                            <th>장 소</th>
-                           <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                           <td>&nbsp;&nbsp;&nbsp;효자아트홀</td>
                        </tr>
                        <tr>
                            <th>이 용 료</th>
@@ -114,23 +114,23 @@
        <section class="yspage" id="showlist5">
            <div class="listbox1">
                <div class="pimg">
-                   <img src="${hpath }/imgs/c5.png" alt="s1">
+                   <img src="${hpath }/imgs/c7.jpg" alt="s1">
                </div>
                <div class="scontent">
                    <h4>진행중</h4> <br>
-                   <p>시민창작시극 「詩를 통해 석곡을 만나다」</p> <br>
+                   <p>2024년 5월 인문학 in 포항「아버지의 해방일지」정지아 작가</p> <br>
                    <table>
                        <tr>
                            <th>일 시</th>
-                           <td>&nbsp;&nbsp;&nbsp;4 ~ 11월, 매월 넷째 주 금요일 15:00 ~ 16:00</td>
+                           <td>&nbsp;&nbsp;&nbsp;2024. 5. 29.(수) 14:00</td>
                        </tr>
                        <tr>
                            <th>대 상</th>
-                           <td>&nbsp;&nbsp;&nbsp;시민 누구나(회당 50명 내외)</td>
+                           <td>&nbsp;&nbsp;&nbsp;포항시민 / 100명</td>
                        </tr>
                        <tr>
                            <th>장 소</th>
-                           <td>&nbsp;&nbsp;&nbsp;석곡기념관 소강당</td>
+                           <td>&nbsp;&nbsp;&nbsp;포은중앙도서관 1층 어울마루</td>
                        </tr>
                        <tr>
                            <th>이 용 료</th>
@@ -149,8 +149,6 @@
                <a href="showList.jsp">1</a>
                <a href="showList2.jsp" class="active">2</a>
                <a href="showList3.jsp">3</a>
-               <a href="#">4</a>
-               <a href="#">5</a>
                <a class="arrow next" href="#"></a>
                <a class="arrow nnext" href="#"></a>
                </div>

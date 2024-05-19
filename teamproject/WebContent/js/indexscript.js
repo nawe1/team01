@@ -91,7 +91,7 @@ var slides = document.querySelector('.slides'),
     }
 
     nextBtn.addEventListener('click',function(){
-        if(currentIdex<slideCount-4){
+        if(currentIdex<slideCount-3){
             moveSlide(currentIdex + 1);
         }else{
             moveSlide(0);
