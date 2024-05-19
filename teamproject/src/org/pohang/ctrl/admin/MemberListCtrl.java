@@ -2,6 +2,7 @@ package org.pohang.ctrl.admin;
 
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,11 +12,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebServlet("/AdminMain.do")
-public class AdminMainCtrl extends HttpServlet {
+import org.pohang.dao.MemberDAO;
+import org.pohang.dto.Member;
+
+
+
+@WebServlet("/MemberList.do")
+public class MemberListCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    public AdminMainCtrl() {
+    public MemberListCtrl() {
         super();
     }
 
@@ -25,10 +31,15 @@ public class AdminMainCtrl extends HttpServlet {
 		String loginId = (String) session.getAttribute("sid");
 		if(!loginId.equals("admin")){
 			response.sendRedirect("/teamproject");
-		} else {
-			request.setAttribute("msg", "관리자 페이지입니다.");
-			RequestDispatcher view = request.getRequestDispatcher("/admin/index.jsp");
-			view.forward(request, response);
 		}
+		
+		MemberDAO dao = new MemberDAO();
+		
+		List<Member> memList = dao.getMemberList();
+		request.setAttribute("memList", memList);
+		
+		RequestDispatcher view = request.getRequestDispatcher("/admin/memberList.jsp");
+		view.forward(request, response);
 	}
+
 }

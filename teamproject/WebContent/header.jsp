@@ -15,7 +15,7 @@
 
 <script src="https://kit.fontawesome.com/c1fb985d35.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <!-- 메인에서는 페이지 잘 들어가지는데 다른 페이지에서는 안들어가지고 ..붙여줘야 들어가짐 -->
+    
 </head>
 	<header class="yhd">
         <div class="ylogo">
@@ -44,36 +44,44 @@
                 <li class="item1">
                     <p><a href="">맛&nbsp;&nbsp;집</a></p> 
                     <ul class="sub">
-                        <li><a href="./restaurant/restaurant.jsp" class="dp2">음식점</a></li>
-                        <li><a href="./restaurant/cafe.jsp" class="dp2">카페</a></li>
+                        <li><a href="${hpath }/restaurant/restaurant.jsp" class="dp2">음식점</a></li>
+                        <li><a href="${hpath }/restaurant/cafe.jsp" class="dp2">카페</a></li>
                     </ul>
                 </li>
                 <li class="item1">
                     <p><a href="">숙&nbsp;&nbsp;박</a></p> 
                     <ul class="sub">
-                        <li><a href="./accom/accom.jsp" class="dp2">호텔</a></li>
-                        <li><a href="" class="dp2">펜션</a></li>
-                        <li><a href="" class="dp2">캠핑</a></li>
+                        <li><a href="${hpath }/accom/accom.jsp" class="dp2">호텔</a></li>
+                        <li><a href="${hpath }/accom/accom.jsp" class="dp2">펜션</a></li>
+                        <li><a href="${hpath }/accom/accom.jsp" class="dp2">캠핑</a></li>
                     </ul>
                 </li>
                 <li class="item1">
                     <p><a href="">커뮤니티</a></p> 
                     <ul class="sub">
-                        <li><a href="./notice/noti.jsp" class="dp2">공지사항</a></li>
-                        <li><a href="./notice/board.jsp" class="dp2">자유게시판</a></li>
+                        <li><a href="${hpath }/notice/noti.jsp" class="dp2">공지사항</a></li>
+                        <li><a href="${hpath }/notice/board.jsp" class="dp2">자유게시판</a></li>
                         <li><a href="" class="dp2">고객센터</a></li>
                     </ul>
                 </li>
                 <li class="item1">
-                    <p><a href="">마이페이지</a></p> 
-                    <ul class="sub">
-                        <li><a href="" class="dp2">로그인</a></li>
-                        <li><a href="" class="dp2">회원가입</a></li>
-                        <li><a href="" class="dp2">회원정보</a></li>
-                        <li><a href="" class="dp2">메뉴4</a></li>
-                        <li><a href="" class="dp2">메뉴5</a></li>
-                    </ul>
-                </li>
+					<p><a href="">마이페이지</a></p> 
+				<ul class="sub">
+					<c:if test="${empty sid }">
+					<li><a href="${hpath }/member/login.jsp">로그인</a></li>
+					<li><a href="${hpath }/member/join.jsp">회원가입</a></li>
+					</c:if>
+					<c:if test="${not empty sid }">
+					<li><a href="${hpath }/LogOut.do">로그아웃</a></li>
+					<li><a href="${hpath }/EditMember.do?id=${sid }">회원정보</a></li>
+					</c:if>
+					<c:if test="${sid.equals('admin') }">
+					<li><a href="${hpath }/AdminMain.do">관리자로</a></li>
+					</c:if>
+					<li><a href="${hpath }/member/terms.jsp">회원약관</a></li>
+					<li><a href="${hpath }/member/policy.jsp">개인정보처리방침</a></li>
+				</ul>
+			</li>
             </ul>
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
