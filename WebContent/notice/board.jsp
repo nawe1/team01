@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="table_wrap">
-                    <form action="${path0 }/NotiIns.do" method="post">
+                    <form action="${hpath }/notice/noti_ins.jsp" method="post">
                        <table class="table" id="tb3">
                            <thead>
                                <tr>

@@ -50,7 +50,7 @@ nav {
             <div class="gnbWrap"><ul>
 			 	<li><a href="${path0 }/MemberList.do">회원목록</a></li>
 				<li><a href="${path0 }/NotiList.do">게시판 관리</a></li>
-			  <li class="t_menu_category"><a href="/category/NOTE" target="">공지사항 관리</a></li>
+			 <li><a href="${path0 }/NotiList.do">공지사항 관리</a></li>
 				</ul>
 			</div>
         </nav>

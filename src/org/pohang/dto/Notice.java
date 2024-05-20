@@ -1,5 +1,7 @@
 package org.pohang.dto;
 
+
+
 public class Notice {
 	private int no;
 	private String title;
