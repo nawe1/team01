@@ -39,15 +39,20 @@ a { text-decoration: none; }
   padding-bottom: 100px;  
   padding-top: 50px;
 }
-
-
 .img1 {
   position: relative;  /*숙소 처음 페이지 사진*/
   width: 100%; height: 250px;
   z-index: 1; 
   object-fit:cover; /*사진 비율 안깨지게 cover*/
   padding-top: 88px;
-}  
+} 
+.imgb {
+  position: relative;  /*숙소 처음 페이지 사진*/
+  width: 100%;
+  z-index: 1; 
+  object-fit:cover; /*사진 비율 안깨지게 cover*/
+  padding-top: 88px;
+}   
 
 .pt{    /*숙소둘러보기 폰트*/
     position: absolute;  
@@ -137,7 +142,7 @@ a { text-decoration: none; }
     /* background-color: #333;  */
 }
 
-.col_list .box_K .img:hover {
+.col_list .box_K .imgb:hover {
   filter: blur(4px); /* 원하는 블러 정도를 지정합니다. */
 }
 
@@ -153,9 +158,9 @@ a { text-decoration: none; }
   box-shadow: 0 14px 28px rgba(158, 158, 158, 0.25), 0 10px 10px rgba(0,0,0,0.22);  /* 그림자*/
   transform: translateY(-5px);   /* 위쪽으로 살짝 이동*/
 }
-.box_K * {padding: 10px;}  /* 모든 박스에 패딩 줌*/
-.box_K .img {display: block; width: 100%;height:210px; padding: 0; }
-.box_K .img1 {display: block; width: 100%;height:210px; padding: 0; } /* 박스 이미지 설정*/
+
+.box_K .imgb {display: block; width: 100%;height:360px; padding: 0;}
+.box_K .img1 {display: block; width: 100%;height:320px; padding: 0; } /* 박스 이미지 설정*/
 .box_K .heading { font-size: 23px; } /* 박스 제목*/
 .box_K1 {          /* 숙소 소개 박스 (K는 이니셜)*/
   width: 100%; 
@@ -172,7 +177,7 @@ a { text-decoration: none; }
   transform: translateY(-5px);   /* 위쪽으로 살짝 이동*/
 }
 .box_K1 * {padding: 10px;}  /* 모든 박스에 패딩 줌*/
-.box_K1 .img {display: block; width: 100%; padding: 0; }
+.box_K1 .imgb {display: block; width: 100%; padding: 0; }
 .box_K1 .img1 {display: block; width: 100%; padding: 0; } /* 박스 이미지 설정*/
 .box_K1 .heading { font-size: 23px; } /* 박스 제목*/
 .box .texts { font-size: 14px; line-height: 18px; } /* 박스 소제목*/

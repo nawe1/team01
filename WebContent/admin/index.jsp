@@ -8,14 +8,34 @@
 <head>
 <meta charset="UTF-8">
 <title>${title }</title>
-
 <style>
 .container { width:1400px; }
-.page { clear:both; height:100vh; }
-#page1 { background-color:#ececec; }
+.page { clear:both; height:100vh;}
+#page1 { background-color:#ececec;}
 #page2 { background-color:#42bcf5; }
 .page_title { font-size:36px; padding-top:2em; text-align:center; }
-.admin_nav { padding-top:4em; text-align:center; }
+
+.nav {width: 30%;height: 100vh;border: 2px solid #000; background: rgba(255,94,24,1); padding: 0 1%;box-sizing: border-box; position: relative;
+margin-top:70px;}
+nav {transition: all 0.3s ease;}
+nav {
+    display: block;
+
+}
+.gnbWrap li a {
+    font-size: 24px;
+    text-shadow: 15px 9px #000, 0 2px #000, -2px 0 #000, 0 -2px #000, 2px 0 #000;
+    line-height: 2.5;
+    background: rgba(255,94,24,1);
+    font-weight: 600;
+    font-family: var(--font-BlackHan);
+}
+.gnbWrap li a:hover {
+    padding-left: 3%;
+    transition: all 0.3s ease;
+    color: #000;
+    text-shadow: 15px 9px #343434, 0 2px #343434, -2px 0 #343434, 0 -2px #343434, 2px 0 #343434;
+}
 </style>
 </head>
 <body>
@@ -23,24 +43,24 @@
 	<%@ include file="/header.jsp" %>
 </div>
 <div id="contents">
-<section class="page" id="page1">
-		<h2 class="title">관리자 페이지</h2>
-		<div class="row">
-			<aside id="lnb" class="col-3">
-				<nav class="admin_nav">
-					<ul>
-						<li><a href="${path0 }/MemberList.do">회원관리</a></li>
-						<li><a href="${path0 }/NotiList.do">게시판 관리</a></li>
-					</ul>
-				</nav>
-			</aside>
-			<section class="page col-9" id="page1">
-				<div style="width:100%; margin:0 auto;">
-					<h3 class="page_title">${msg }</h3>
-				</div>
-			</section>
-		</div>
-	</section>
+	<h2 class="title">관리자 페이지</h2>
+	<div class="row">
+		<aside id="lnb" class="col-3">
+			<nav class="nav">
+            <div class="gnbWrap"><ul>
+			 	<li><a href="${path0 }/MemberList.do">회원목록</a></li>
+				<li><a href="${path0 }/NotiList.do">게시판 관리</a></li>
+			  <li class="t_menu_category"><a href="/category/NOTE" target="">공지사항 관리</a></li>
+				</ul>
+			</div>
+        </nav>
+		</aside>
+		<section class="page col-9" id="page1">
+			<div style="width:100%; margin:0 auto;">
+				<h3 class="page_title">${msg }</h3>
+			</div>
+		</section>
+	</div>
 </div>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>

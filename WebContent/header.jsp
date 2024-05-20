@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${hpath }/css/index.css">
+<link rel="stylesheet" href="${hpath }/css/header.css">
 
 <script src="https://kit.fontawesome.com/c1fb985d35.js" crossorigin="anonymous"></script>
     <title>Document</title>
@@ -55,17 +55,22 @@
                     <ul class="sub">
                         <li><a href="${hpath }/notice/noti.jsp" class="dp2">공지사항</a></li>
                         <li><a href="${hpath }/notice/board.jsp" class="dp2">자유게시판</a></li>
-                        <li><a href="" class="dp2">고객센터</a></li>
                     </ul>
                 </li>
                 <li class="item1">
                     <p><a href="">마이페이지</a></p> 
                     <ul class="sub">
-                        <li><a href="${hpath }/member/login.jsp" class="dp2">로그인</a></li>
-                        <li><a href="${hpath }/member/join.jsp" class="dp2">회원가입</a></li>
-                        <li><a href="${hpath }/member/memberInfo.jsp" class="dp2">회원정보</a></li>
-                        <li><a href="" class="dp2">메뉴4</a></li>
-                        <li><a href="" class="dp2">메뉴5</a></li>
+                    <c:if test="${empty sid }">
+					<li><a href="${hpath }/member/login.jsp">로그인</a></li>
+					<li><a href="${hpath }/member/join.jsp">회원가입</a></li>
+					</c:if>
+					<c:if test="${not empty sid }">
+					<li><a href="${hpath }/LogOut.do">로그아웃</a></li>
+					<li><a href="${hpath }/EditMember.do?id=${sid }">회원정보</a></li>
+					</c:if>
+					<c:if test="${sid.equals('admin') }">
+					<li><a href="${hpath }/AdminMain.do">관리자페이지</a></li>
+					</c:if>
                     </ul>
                 </li>
             </ul>
