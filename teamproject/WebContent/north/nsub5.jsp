@@ -10,195 +10,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/nsub.css">
 <title>Insert title here</title>
-<style>
 
-/*초기설정*/
-* { margin: 0; padding: 0; }    
-body { width: 100%;  overflow-x:hidden; min-width:1200px; }
-body, html { background-color: #fff; }
-ul { list-style: none; }
-a { text-decoration: none; }
-.wrap { min-height:250px; }
-.clr-fix { clear:both; }
-.clr-fix:after { content:""; display:block; width:100%; clear:both;}
-
-/* 네비게이션 바 */
-#hd { width: 100%; height: 120px; position:relative; }
-.hd_wrap { clear:both; width:1200px;  margin: 0 auto; }
-.hd_wrap2 { clear:both; width:100%; height: 100px; margin: 0; background-color: #E8E8E8; position: fixed; z-index: 9999;}
-.logo { display:block; width: 60px; height: 60px; float:left; margin-top:5px; 
- position: absolute; padding-left: 90px;}
-
-
-/* 새롭게 만든 네비게이션 바 */
-#gnb2 {clear:both;width:2200px; height:300px;margin: 0 auto;display: flex;flex-wrap: wrap;margin-left: 12%; padding-top: 30px;}
-
-#gnb2 .menu {width: 100%;display: flex; list-style: none; }
-
-#gnb2 .menu > li {text-align: center;position:relative;width: 33.33%; box-sizing: border-box; }
-
-#gnb2 a.dp1 {background-color:#6d5f5f;color:#fff;display:block;line-height: 36px;
-font-family: 'Jua';font-style: normal;font-weight: 400;font-size: 32px;
-line-height: 40px;text-align: center;color: #FFFFFF;text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
-
-#gnb2 li:hover a.dp1 {background-color:deepskyblue;}
-#gnb2 .sub {display:none;position:absolute;left: 0;top: 35px;z-index:100;width: 100%;height: 150px;}
-#gnb2:hover .menu .sub {display:block;}
-#gnb2 .sub li {line-height: 30px;}
-#gnb2 .sub li a {color:#333;font-weight: 600;}
-#gnb2 .menu li:hover .sub {background-color:#ccc;}
-#gnb2 .sub li:hover a {color:rgb(25, 0, 255);text-decoration: underline;}
-
-.page{
-  padding-top: 100px;
-}
-.head {
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 120px;
-    font-size: 32px;
-  }
-.head1 {
-  text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  font-size: 32px;
-}
-
-  .atage {
-    text-align: center;
-    word-spacing: 30px;
-    margin: 25px;
-    text-decoration: none;
-  }
-  
-  .container {
-    width: 1198px;
-    height: 1482px;
-    overflow: auto;
-    list-style-type: none;
-  }
-  
-  .ontainer {
-    position: absolute;
-    left: 110px;
-    z-index: 2;
-    padding-left: 350px;
-    list-style-type: none;
-    margin-top: 120px;
-    
-  }
-  
-  .midtext1 {
-    white-space: normal;
-    left: 60px;
-    font-weight: bold;
-    margin-top: 20px; 
-    
-  }
-  .textarea{
-    position: absolute;
-    top: 1100px;
-    left: 460px; 
-    overflow: visible; 
-  }
-  .midtext1{
-    width: 983px;
-  }
-  .map {
-    position: absolute;
-    top: 1350px;
-    word-spacing: 600px;
-    left: 400px;
-    z-index: 2;
-    list-style-type: none;
-  }
-  
-  .video {
-    position: absolute;
-    word-spacing: 600px;
-    left: 980px;
-    top: 1350px;
-    z-index: 2;
-    list-style-type: none;
-  }
-  
-  .comment-container {
-    position: absolute;
-    width: 1200px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    top: 1700px;
-    z-index: 2;
-    right: 300px;
-  }
-  
-  .comment-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .comment-form button {
-    float: right;
-    background-color: #1907c0;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .comment-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .comment {
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-  } 
-  /* 버튼 */
-  
-  #ft { width: 100%; }   
-  .ft_wrap { clear:both; width: 1200px; margin: 0 auto; } 
-  .ft { clear:both; width: 100%; padding-top:3px; padding-bottom: 20px; 
-  }
-  #fnb { clear:both; width:100%; height:42px; line-height: 42px; 
-  border-bottom:1px solid #ccc; background-color:#333; }
-  #fnb:after { content:""; display:block; width: 100%; clear: both; }
-  #fnb ul li { float:left; padding:0px 10px; }
-  #fnb ul.fl { float:left; }
-  #fnb ul.fr { float:right; }
-  #fnb ul li a { color:#fff; font-size:16px; }
-  #fnb ul.fl li a:after { content:"|"; padding-left: 16px; }
-  #fnb ul.fr li a:before { content:"|"; padding-right: 16px; }
-  #fnb ul.fl li:hover a:after { content:"|"; padding-left: 16px; color:#fff; }
-  #fnb ul.fr li:hover a:before { content:"|"; padding-right: 16px; color:#fff;  }
-  #fnb ul.fl li:last-child a:after { content:""; }
-  #fnb ul.fr li:first-child a:before { content:""; }
-  #fnb ul li:hover a { color:rgb(0, 191, 255); }
-  #fnb ul.fl li:hover::last-child a:after { content:""; }
-  #fnb ul.fr li:hover::first-child a:before { content:""; } 
-  .copy { padding:24px; line-height: 24px; } 
-  
-  .btn-group { clear:both; margin-top: 10px; padding-top: 10px; text-align: right; }
-  .btn { display:inline-block; padding:4px 14px; color:#fff; background-color: #333; }
-  .btn.primary { background-color: rgb(0, 191, 255); }
-  .btn.primary:hover { background-color: #333; }
-</style>
 </head>
 <body>
-  <div id="header">
+   <div id="header">
    <%@ include file="/header.jsp" %>
    </div>
     <section class="pages" id="pages1">
         <div class="all">
             <h1 class="head">해오름 전망대</h1>
-            <p class="head1">한반도에서 해가 가장 먼저 뜨는 곳!</p>
+            <p class="head">한반도에서 해가 가장 먼저 뜨는 곳!</p>
             <hr>
             <div class="atage">
               <a href="" class="tage">사진보기</a>
@@ -215,20 +38,25 @@ line-height: 40px;text-align: center;color: #FFFFFF;text-shadow: 0px 4px 4px rgb
               <div class="textarea">
               <p class="midtext1">상세정보</p>
               <hr>
-              <p class="midtext1">해오름이란 포항, 울산, 경주 3개 도시가 함께하는 동맹의 이름이다.
+              <p class="midtext1"> 해오름이란 포항, 울산, 경주 3개 도시가 함께하는 동맹의 이름이다.
                 3개 도시는 모두 한반도에서 해가 가장 먼저 뜨는 지역이면서 대한민국의 산업화를 일으킨 지역이라는 공통점을 지니고 있어서 해오름동맹을 맺었다.
                 영일만 북파랑길을 따라 걸으면 만나볼 수 있는 뱃머리 모양의 이 전망대는 투명한 바다 위로 한 발자국 더 다가갈 수 있게 만들어 포항의 깊고 푸른 바다를 더 실감나게 만나볼 수 있다.</p>
             </div>
               <ul class="map">
                 <li>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.8132207180142!2d129.39464417635813!3d36.14676080426005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35671c0cb85971cd%3A0xc0968cf24ac678dd!2z7ZW07Jik66aEIOyghOunneuMgA!5e0!3m2!1sko!2skr!4v1715951823278!5m2!1sko!2skr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </li>
+                                   </li>
               </ul>
               <ul class="video">
                 <li>
                     <iframe width="500" height="350" src="https://www.youtube.com/embed/Q3vxU7au-Vg?si=hFFukX9jL95PIgLr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </li>
+                                    </li>
               </ul>
+    </section>
+      <section class="ypage" id="ypage5">
+        <div class="mokrok">
+            <button class="mok"><a href="${hpath }/north/nmain.jsp">목록으로 가기</a></button>
+        </div>
     </section>
 <footer id="ft" class="clr-fix">
     <nav id="fnb">

@@ -174,38 +174,47 @@
             <ul class="grid clr-fix">
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션1</h1>
+                        <img class="img" src="../imgs/pension/pen1.jpg" alt="">
+                        <h1 class="heading">라메르펜션리조트</h1>
                             <p class="texts">
-                            호텔소개글 1
+경북 포항시 남구 호미곶면 일출로568번길 19-16 (강사리)
+                                         
+054-284-5009
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션2</h1>
+                        <img class="img" src="../imgs/pension/pen2.jpg" alt="">
+                        <h1 class="heading">다모디</h1>
                             <p class="texts">
-                            호텔소개글 2                       
+경북 포항시 남구 호미곶면 관암일출길 29
+                                         
+054-276-8700
+                                                
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션3</h1>
+                        <img class="img" src="../imgs/pension/pen3.jpg" alt="">
+                        <h1 class="heading">씨캐슬</h1>
                             <p class="texts">
-                            호텔소개글 3 
+경상북도 포항시 북구 청하면 해안로2000번길 3 청하면 
+                          
+054-261-1600
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션4</h1>
+                        <img class="img" src="../imgs/pension/pen4.jpg" alt="">
+                        <h1 class="heading">케렌시아</h1>
                         <p class="texts">
-                            호텔소개글4
+경북 포항시 남구 호미곶면 호미로 1504-7 (구만리)
+
+010-3431-8255
                         </p>
                     </div>
                     
@@ -213,37 +222,45 @@
                 
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션5</h1>
+                        <img class="img" src="../imgs/pension/pen5.jpg" alt="">
+                        <h1 class="heading">스테이청하</h1>
                             <p class="texts">
-                            호텔소개글5
+경북 포항시 북구 청하면 청하로217번길 40-25 (덕성리)
+0507-1301-1751
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션6</h1>
+                        <img class="img" src="../imgs/pension/pen6.jpg" alt="">
+                        <h1 class="heading">삼대한채</h1>
                             <p class="texts">
-                            호텔소개글6
+경북 포항시 남구 장기면 동해안로 4002-21 (모포리)
+                            
+010-2699-6154
+                            
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션7</h1>
+                        <img class="img" src="../imgs/pension/pen7.jpg" alt="">
+                        <h1 class="heading">어촌일기 호미곶 독채펜션</h1>
                             <p class="texts">
-                            호텔소개글7
+경북 포항시 남구 호미곶면 일출로596번길 7-6 (강사리)
+
+0507-1422-0521
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">팬션8</h1>
+                        <img class="img" src="../imgs/pension/pen8.jpg" alt="">
+                        <h1 class="heading">비다펠리즈</h1>
                         <p class="texts">
-                            호텔소개글8
+경북 포항시 남구 호미곶면 해맞이로46번길 66 (대보리)
+                          
+0507-1382-3811
                         </p>                        
                     </div>
                 </li>
@@ -256,38 +273,46 @@
             <ul class="grid clr-fix">
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑1</h1>
+                        <img class="img" src="../imgs/camping/cam1.jpg" alt="">
+                        <h1 class="heading">솔밭캠핑장</h1>
                             <p class="texts">
-                            호텔소개글 1
+경북 포항시 북구 송라면 해안로 2952 (화진리)
+                           
+010-5334-3810
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑2</h1>
+                        <img class="img" src="../imgs/camping/cam2.jpg" alt="">
+                        <h1 class="heading">푸른고래 카라반 캠핑</h1>
                             <p class="texts">
-                            호텔소개글 2                       
+경북 포항시 남구 장기면 동해안로 2784 (두원리)  
+ 
+010-4171-9101                
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑3</h1>
+                        <img class="img" src="../imgs/camping/cam3.jpg" alt="">
+                        <h1 class="heading">글램핑 앤 카라반</h1>
                             <p class="texts">
-                            호텔소개글 3 
+경북 포항시 남구 호미곶면 구만길 64 (구만리)
+                            
+0507-1394-1010
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑4</h1>
+                        <img class="img" src="../imgs/camping/cam4.jpg" alt="">
+                        <h1 class="heading">호미곶유니의바다 카라반캠핑장</h1>
                         <p class="texts">
-                            호텔소개글4
+경북 포항시 남구 호미곶면 해맞이로46번길 134 (강사리)
+                            
+070-4501-7077
                         </p>
                     </div>
                     
@@ -295,37 +320,45 @@
                 
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑5</h1>
-                            <p class="texts">
-                            호텔소개글5
+                        <img class="img" src="../imgs/camping/cam5.jpg"alt="">
+                        <h1 class="heading">포유카라반파크</h1>
+                            <p class="texts">                            
+경북 포항시 남구 구룡포읍 구평리 504
+
+0507-1368-0770
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑6</h1>
-                            <p class="texts">
-                            호텔소개글6
+                        <img class="img" src="../imgs/camping/cam6.jpg" alt="">
+                        <h1 class="heading">그린오토캠핑장</h1>
+                            <p class="texts">                            
+경북 포항시 남구 호미곶면 호미로 1178 (강사리)
+
+0507-1342-7696
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑7</h1>
-                            <p class="texts">
-                            호텔소개글7
+                        <img class="img" src="../imgs/camping/cam7.jpg" alt="">
+                        <h1 class="heading">별삼킨별</h1>
+                            <p class="texts">                           
+경북 포항시 북구 죽장면 죽장로2419번길 14-22 (하옥리)
+
+010-9206-6234
                         </p>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <img class="img" src="../imgs/accom/aa01.png" alt="">
-                        <h1 class="heading">캠핑8</h1>
+                        <img class="img" src="../imgs/camping/cam8.jpg" alt="">
+                        <h1 class="heading">블루밍</h1>
                         <p class="texts">
-                            호텔소개글8
+경북 포항시 남구 장기면 동해안로 2816 (두원리)
+                         
+0507-1324-1974
                         </p>                        
                     </div>
                 </li>

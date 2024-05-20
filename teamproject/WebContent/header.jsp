@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${hpath }/css/index.css">
+<link rel="stylesheet" href="${hpath }/css/header.css">
 
 <script src="https://kit.fontawesome.com/c1fb985d35.js" crossorigin="anonymous"></script>
     <title>Document</title>

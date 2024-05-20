@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>북부권</title>
     
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="${hpath }/css/header.css">
     <link rel="stylesheet" href="../css/nmain.css">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
@@ -35,17 +35,17 @@
             <ul class="grid clr-fix">
                 <li class="col_list">              
                     <div class="box_K">
-                        <a href="nsub5.jsp"><img class="img" src="${hpath }/imgs/nm1.png" alt=""></a>
+                        <a href="nsub5.jsp"><img class="imgb" src="${hpath }/imgs/nm5.jpg" alt=""></a>
                     </div> 
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                       <a href="nsub6.jsp"><img class="img" src="${hpath }/imgs/nm4.jpg" alt=""></a>
+                       <a href="nsub4.jsp"><img class="imgb" src="${hpath }/imgs/nm4.jpg" alt=""></a>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <a href="nsub7.jsp"><img class="img" src="${hpath }/imgs/nm7.png" alt=""></a>
+                        <a href="nsub7.jsp"><img class="imgb" src="${hpath }/imgs/nm7.png" alt=""></a>
                     </div>
                 </li>  
             </ul>

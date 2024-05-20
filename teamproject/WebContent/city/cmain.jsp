@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>도심권</title>
     
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="${hpath }/css/header.css">
     <link rel="stylesheet" href="../css/nmain.css">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
@@ -35,17 +35,17 @@
             <ul class="grid clr-fix">
                 <li class="col_list">              
                     <div class="box_K">
-                        <a href="csub1.jsp"><img class="img" src="${hpath }/imgs/sky2.png" alt=""></a>
+                        <a href="csub1.jsp"><img class="imgb" src="${hpath }/imgs/nm1.png" alt=""></a>
                     </div> 
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                       <a href="csub6.jsp"><img class="img" src="${hpath }/imgs/c6.jpg" alt=""></a>
+                       <a href="csub6.jsp"><img class="imgb" src="${hpath }/imgs/city6.jpg" alt=""></a>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <a href="csub7.jsp"><img class="img" src="${hpath }/imgs/c7.jpg" alt=""></a>
+                        <a href="csub7.jsp"><img class="imgb" src="${hpath }/imgs/city7.jpg" alt=""></a>
                     </div>
                 </li>  
             </ul>
@@ -63,20 +63,20 @@
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <a href="csub2.jsp"> <img class="img1" src="${hpath }/imgs/c2.jpg" alt=""></a>
+                        <a href="csub2.jsp"> <img class="img1" src="${hpath }/imgs/city2.jpg" alt=""></a>
                         <h1 class="heading">포항 시립 미술관</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="csub3.jsp"><img class="img1" src="${hpath }/imgs/c3.jpg" alt=""></a>
+                         <a href="csub3.jsp"><img class="img1" src="${hpath }/imgs/city3.jpg" alt=""></a>
                         <h1 class="heading">포항운하</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     
                     <div class="box_K">
-                         <a href="csub4.jsp"><img class="img1" src="${hpath }/imgs/c4.jpg"alt=""></a>
+                         <a href="csub4.jsp"><img class="img1" src="${hpath }/imgs/city4.jpg"alt=""></a>
                         <h1 class="heading">영일대/포스코야경</h1>
                     </div>
                     
@@ -84,25 +84,25 @@
                 
                 <li class="col_list">
                     <div class="box_K">
-                        <a href="csub5.jsp"> <img class="img1" src="${hpath }/imgs/c5.jpg" alt=""></a>
+                        <a href="csub5.jsp"> <img class="img1" src="${hpath }/imgs/city5.jpg" alt=""></a>
                         <h1 class="heading">연일향교</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="csub6.jsp"><img class="img1" src="${hpath }/imgs/c6.jpg" alt=""></a>
+                         <a href="csub6.jsp"><img class="img1" src="${hpath }/imgs/city6.jpg" alt=""></a>
                         <h1 class="heading">두호동 화석산지</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="csub7.jsp"><img class="img1" src="${hpath }/imgs/c7.jpg"alt=""></a>
+                         <a href="csub7.jsp"><img class="img1" src="${hpath }/imgs/city7.jpg"alt=""></a>
                         <h1 class="heading">영일대 해수욕장</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="csub8.jsp"><img class="img1" src="${hpath }/imgs/c8.jpg" alt=""></a>
+                         <a href="csub8.jsp"><img class="img1" src="${hpath }/imgs/city8.jpg" alt=""></a>
                         <h1 class="heading">송도해변</h1>                     
                     </div>
                 </li>

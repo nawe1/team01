@@ -138,10 +138,10 @@
         </nav>
         <hr>
         <div class="copy">
-            <p class="copyright">Copyrigh 2024. KiM Gi Tae. All Rights Reserved.</p>
-            <p class="addr">#1204, 128-14, Block 6, Gasan-dong, Geumcheon-gu, Seoul-city</p>
-            <p class="tel">Tel. 010-2858-4307, Fax. 02-2488-7954, Email : kkt09072@google.com
-                <a href="https://www.google.com/maps/search/%EA%B0%80%EC%82%B0%EB%8F%99+128-14+%EC%A7%80%EB%8F%84?entry=ttu" target="_blank">오시는 길</a>
+            <p class="copyright">Copyrigh 2024. TeamPohang. All Rights Reserved.</p>
+            <p class="addr">1001 Daejam-dong Pohang City Hall, Pohang</p>
+            <p class="tel">Tel. 010-0000-0000, Fax. 02-000-0000, Email : aaaa@google.com
+                <a href="https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%ED%8F%AC%ED%95%AD%EC%8B%9C/address/14398440.3122758,4303240.5996273,%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%ED%8F%AC%ED%95%AD%EC%8B%9C,jibun?isCorrectAnswer=true&c=9.00,0,0,0,dh" target="_blank">오시는 길</a>
             </p>
         </div>
     </footer>

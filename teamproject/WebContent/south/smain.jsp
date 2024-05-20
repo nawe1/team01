@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>남부권</title>
     
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="${hpath }/css/header.css">
     <link rel="stylesheet" href="../css/nmain.css">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
@@ -22,7 +22,7 @@
    <%@ include file="/header.jsp" %>
    </div>
     <div >
-        <img src="${hpath }/imgs/south01.png" alt="" class="img1">
+        <img src="${hpath }/imgs/south01.jpg" alt="" class="img1">
         <p class="pt">포항 북부의 자연 속에서의 평화와 조화</p>
     </div>
     <section class="page" id="page1">
@@ -35,17 +35,17 @@
             <ul class="grid clr-fix">
                 <li class="col_list">              
                     <div class="box_K">
-                        <a href="ssub5.jsp"><img class="img" src="${hpath }/imgs/s3.jpg" alt=""></a>
+                        <a href="ssub3.jsp"><img class="imgb" src="${hpath }/imgs/south3.jpg" alt=""></a>
                     </div> 
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                       <a href="ssub6.jsp"><img class="img" src="${hpath }/imgs/s5.jpg" alt=""></a>
+                       <a href="ssub6.jsp"><img class="imgb" src="${hpath }/imgs/south6.jpg" alt=""></a>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                        <a href="ssub7.jsp"><img class="img" src="${hpath }/imgs/s6.jpg" alt=""></a>
+                        <a href="ssub5.jsp"><img class="imgb" src="${hpath }/imgs/south5.jpg" alt=""></a>
                     </div>
                 </li>  
             </ul>
@@ -58,26 +58,26 @@
             <ul class="grid clr-fix">
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="ssub1.jsp"><img class="img1" src="${hpath }/imgs/s1.jpg" alt=""></a>
+                         <a href="ssub1.jsp"><img class="img1" src="${hpath }/imgs/south1.jpg" alt=""></a>
                         <h1 class="heading">양포항</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="ssub2.jsp"><img class="img1" src="${hpath }/imgs/s2.jpg" alt=""></a>
+                         <a href="ssub2.jsp"><img class="img1" src="${hpath }/imgs/south2.jpg" alt=""></a>
                         <h1 class="heading">신창 간이 해수욕장</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="ssub3.jsp"><img class="img1" src="${hpath }/imgs/s3.jpg" alt=""></a>
+                         <a href="ssub3.jsp"><img class="img1" src="${hpath }/imgs/south3.jpg" alt=""></a>
                         <h1 class="heading">구룡포 주상절리</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     
                     <div class="box_K">
-                         <a href="ssub4.jsp"><img class="img1" src="${hpath }/imgs/s4.jpg"alt=""></a>
+                         <a href="ssub4.jsp"><img class="img1" src="${hpath }/imgs/south4.jpg"alt=""></a>
                         <h1 class="heading">영일대 공원</h1>
                     </div>
                     
@@ -85,25 +85,25 @@
                 
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="ssub5.jsp"><img class="img1" src="${hpath }/imgs/s5.jpg" alt=""></a>
+                         <a href="ssub5.jsp"><img class="img1" src="${hpath }/imgs/south5.jpg" alt=""></a>
                         <h1 class="heading">모포항</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="ssub6.jsp"><img class="img1" src="${hpath }/imgs/s6.jpg" alt=""></a>
+                         <a href="ssub6.jsp"><img class="img1" src="${hpath }/imgs/south6.jpg" alt=""></a>
                         <h1 class="heading">호미곶</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="ssub7.jsp"><img class="img1" src="${hpath }/imgs/s7.jpg"alt=""></a>
-                        <h1 class="heading">삼대한채</h1>
+                         <a href="ssub7.jsp"><img class="img1" src="${hpath }/imgs/south7.jpg"alt=""></a>
+                        <h1 class="heading">광남서원</h1>
                     </div>
                 </li>
                 <li class="col_list">
                     <div class="box_K">
-                         <a href="ssub8.jsp"><img class="img1" src="${hpath }/imgs/s8.jpg" alt=""></a>
+                         <a href="ssub8.jsp"><img class="img1" src="${hpath }/imgs/south8.jpg" alt=""></a>
                         <h1 class="heading">장기향교</h1>                     
                     </div>
                 </li>
