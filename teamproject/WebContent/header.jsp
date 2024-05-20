@@ -11,22 +11,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="${hpath }/css/index.css">
+
 <script src="https://kit.fontawesome.com/c1fb985d35.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    
+    <!-- 메인에서는 페이지 잘 들어가지는데 다른 페이지에서는 안들어가지고 ..붙여줘야 들어가짐 -->
 </head>
 	<header class="yhd">
         <div class="ylogo">
-            <a href="/teamproject"><img src="${hpath }/imgs/logo.png" alt="logo"></a>
+            <a href="${hpath }/index.jsp"><img src="${hpath }/imgs/logo.png" alt="logo"></a>
         </div>
         <div class="ybox">
             <ul class="ymenu">
                 <li class="item1">
                     <p><a href="">권역별 관광</a></p> 
                     <ul class="sub">
-                        <li><a href="" class="dp2">북부권</a></li>
-                        <li><a href="" class="dp2">남부권</a></li>
-                        <li><a href="" class="dp2">도심권</a></li>
+                        <li><a href="${hpath }/north/nmain.jsp" class="dp2">북부권</a></li>
+                        <li><a href="${hpath }/south/smain.jsp" class="dp2">남부권</a></li>
+                        <li><a href="${hpath }/city/cmain.jsp" class="dp2">도심권</a></li>
                     </ul>
                 </li>
                 <li class="item1">
@@ -38,32 +40,30 @@
                 <li class="item1">
                     <p><a href="">맛&nbsp;&nbsp;집</a></p> 
                     <ul class="sub">
-                        <li><a href="" class="dp2">음식점</a></li>
-                        <li><a href="" class="dp2">카페</a></li>
+                        <li><a href="${hpath }/restaurant/restaurant.jsp" class="dp2">음식점</a></li>
+                        <li><a href="${hpath }/restaurant/cafe.jsp" class="dp2">카페</a></li>
                     </ul>
                 </li>
                 <li class="item1">
                     <p><a href="">숙&nbsp;&nbsp;박</a></p> 
                     <ul class="sub">
-                        <li><a href="" class="dp2">호텔</a></li>
-                        <li><a href="" class="dp2">펜션</a></li>
-                        <li><a href="" class="dp2">캠핑</a></li>
+                        <li><a href="${hpath }/accom/accom.jsp" class="dp2">호텔/펜션/캠핑</a></li>
                     </ul>
                 </li>
                 <li class="item1">
                     <p><a href="">커뮤니티</a></p> 
                     <ul class="sub">
-                        <li><a href="" class="dp2">공지사항</a></li>
-                        <li><a href="" class="dp2">자유게시판</a></li>
+                        <li><a href="${hpath }/notice/noti.jsp" class="dp2">공지사항</a></li>
+                        <li><a href="${hpath }/notice/board.jsp" class="dp2">자유게시판</a></li>
                         <li><a href="" class="dp2">고객센터</a></li>
                     </ul>
                 </li>
                 <li class="item1">
                     <p><a href="">마이페이지</a></p> 
                     <ul class="sub">
-                        <li><a href="" class="dp2">로그인</a></li>
-                        <li><a href="" class="dp2">회원가입</a></li>
-                        <li><a href="" class="dp2">회원정보</a></li>
+                        <li><a href="${hpath }/member/login.jsp" class="dp2">로그인</a></li>
+                        <li><a href="${hpath }/member/join.jsp" class="dp2">회원가입</a></li>
+                        <li><a href="${hpath }/member/memberInfo.jsp" class="dp2">회원정보</a></li>
                         <li><a href="" class="dp2">메뉴4</a></li>
                         <li><a href="" class="dp2">메뉴5</a></li>
                     </ul>

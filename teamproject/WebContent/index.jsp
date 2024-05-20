@@ -76,7 +76,7 @@
     </section>
     <section class="ypage" id="page4">
             <div class="ycity">
-                <p id="ybok">북부권</p>
+                <<p id="ybok">북부권</p>
                 <p id="ydo">도심권</p>
                 <p id="ynam">남부권</p>
             </div>

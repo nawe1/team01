@@ -58,7 +58,7 @@ a {text-decoration: none; color: black;}
 #page1 img {width: 1920px;height: 1040px; margin-top: 00px; }
 
 .wel {position: absolute;
-    left: 50%;
+    left: 40%;
     top: 270px;
     text-align: center;
     font-family: "Nanum Pen Script", cursive;
@@ -69,7 +69,7 @@ a {text-decoration: none; color: black;}
     text-shadow: 0px 0px 10px gray;
 }
 .city {position: absolute;
-    left: 50%;
+    left: 40%;
     top: 150px;
     text-align: center;
     font-family: "Nanum Pen Script", cursive;
