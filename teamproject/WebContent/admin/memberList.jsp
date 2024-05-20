@@ -8,20 +8,18 @@
 <head>
 <meta charset="UTF-8">
 <title>${title }</title>
-
 <style>
 .container { width:1400px; }
-.page { clear:both; height:100vh; }
-#page1 { background-color:#fffff; }
+.page { clear:both; height:100vh; margin-top:50px;}
+#page1 { background-color:#ececec; }
 #page2 { background-color:#42bcf5; }
 .page_title { font-size:36px; padding-top:2em; text-align:center; }
 th.item1 { width:5%; }
 th.item2 { width:15%; }
 th.item3 { width:15%; }
-th.item4 { width:15%; }
-th.item5 { width:15%; }
-th.item6 { width:15%; }
-th.item7 { width:15%; }
+th.item4 { width:20%; }
+th.item5 { width:20%; }
+.a{padding-top:120px;}
 </style>
 </head>
 <body>
@@ -32,9 +30,9 @@ th.item7 { width:15%; }
 	<div class="row">
 		<aside id="lnb" class="col-3">
 			<nav>
-				<ul>
+				<ul class="a">
 					<li><a href="${path0 }/MemberList.do">회원목록</a></li>
-					<li><a href="${path0 }/NotiList.do">게시판 관리</a></li>
+				<li><a href="${path0 }/NotiList.do">게시판 관리</a></li>
 				</ul>
 			</nav>
 		</aside>
@@ -51,8 +49,6 @@ th.item7 { width:15%; }
 								<th class="item4">이름</th>
 								<th class="item5">이메일</th>
 								<th class="item6">전화번호</th>
-								<th class="item5">생년월일</th>
-								<th class="item6">주소</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -68,8 +64,6 @@ th.item7 { width:15%; }
 									<td>${dto.name }</td>
 									<td>${dto.email }</td>
 									<td>${dto.tel }</td>
-									<td>${dto.birth }</td>
-									<td>${dto.addr }</td>
 								</tr>
 								</c:forEach>
 							</c:if>

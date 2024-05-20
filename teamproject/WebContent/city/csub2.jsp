@@ -57,29 +57,8 @@
             <button class="mok"><a href="${hpath }/city/cmain.jsp">목록으로 가기</a></button>
         </div>
     </section>
-<footer id="ft" class="clr-fix">
-    <nav id="fnb">
-        <ul class="fl">
-            <li><a href="term.html">회원약관</a></li>
-            <li><a href="policy.html">개인정보처리방침</a></li>
-            <li><a href="map.html">오시는길</a></li>
-            <li><a href="contact.html">관리자 문의</a></li>
-        </ul>
-        <ul class="fr">
-            <li><a href="intro.html?data=local1">지역소개</a></li>
-            <li><a href="guide1.html">이용안내</a></li>
-            <li><a href="notice.html">커뮤니티</a></li>
-        </ul>
-    </nav>
-    <hr>
-    <div class="copy">
-        <p class="copyright">Copyrigh 2024. Pohnag. All Rights Reserved.</p>
-        <p class="addr">#1204, 128-14, Block 6, Pohang-city</p>
-        <p class="tel">Tel. 010-1234-5678, Fax. 02-0000-0000, Email : aaaa@naver.com
-            <a href="https://www.google.co.kr/maps/search/%ED%8F%AC%ED%95%AD%EC%97%AD?entry=ttu" target="_blank">오시는 길</a>
-        </p>
-    </div>
+<div id="footer">
+	<%@ include file="/footer.jsp" %>
 </div>
-</footer>
 </body>
 </html>

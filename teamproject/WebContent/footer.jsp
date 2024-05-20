@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <link rel="stylesheet" href="${hpath }/css/footer.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
