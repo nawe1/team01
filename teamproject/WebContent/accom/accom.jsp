@@ -79,6 +79,7 @@
 경북 포항시 북구 삼호로265번길 1<br>
 054-230-7000
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/entry/place/1080282101?lng=129.3796418&lat=36.0615223&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -86,8 +87,9 @@
                         <img class="img" src="../imgs/accom/ht02.jpg" alt="">
                         <h1 class="heading">오션힐스 골프 & 리조트</h1>
                             <p class="texts">
-                            호텔소개글 2                       
+                            경북 포항시 북구 송라면 대전길 7-1                       
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%98%A4%EC%85%98%ED%9E%90%EC%8A%A4%20%EA%B3%A8%ED%94%84%20&%20%EB%A6%AC%EC%A1%B0%ED%8A%B8/place/1001011849?placePath=%3Fentry%3Dpll%26from%3Dnx%26fromNxList%3Dtrue&placeSearchOption=entry%3Dpll%26fromNxList%3Dtrue&searchType=place&c=15.00,0,0,0,dh"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -101,6 +103,7 @@
 054-260-7001
 
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/entry/place/1261772797?lng=129.3474804&lat=36.0145205&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -113,6 +116,7 @@
                          
 054-241-1234
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%95%A0%ED%94%8C%ED%8A%B8%EB%A6%AC%ED%98%B8%ED%85%94/place/15043579?c=15.00,0,0,0,dh&isCorrectAnswer=true"target="_blank">자세히보기</a></button>
                     </div>
                     
                 </li>
@@ -125,6 +129,7 @@
                             경북 포항시 남구 희망대로659번길 20<br>
                             
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EB%85%B8%EB%B8%94%EB%A6%AC%EC%98%A8%ED%98%B8%ED%85%94/place/1644251584?c=15.00,0,0,0,dh&isCorrectAnswer=true"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -137,6 +142,7 @@
 
 054-256-0055
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/entry/place/1336296060?c=15.00,0,0,0,dh"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -150,6 +156,7 @@
 054-241-1400
 
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%BD%94%EB%AA%A8%EB%8F%84%ED%98%B8%ED%85%94/place/11659034?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -161,7 +168,8 @@
 경북 포항시 남구 중앙로 128<br>
 
 054-282-2700
-                        </p>                        
+                        </p>                 
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EB%B2%A0%EB%8B%88%ED%82%A4%EC%95%84%20%ED%98%B8%ED%85%94/place/1496953683?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>       
                     </div>
                 </li>
             </ul>
@@ -181,6 +189,7 @@
                                          
 054-284-5009
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EB%9D%BC%EB%A9%94%EB%A5%B4%ED%8E%9C%EC%85%98%EB%A6%AC%EC%A1%B0%ED%8A%B8/place/20336557?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -193,6 +202,7 @@
 054-276-8700
                                                 
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EB%8B%A4%EB%AA%A8%EB%94%94/place/586478138?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -204,6 +214,7 @@
                           
 054-261-1600
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%94%A8%EC%BA%90%EC%8A%AC/place/12792262?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -216,6 +227,7 @@
 
 010-3431-8255
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%BC%80%EB%A0%8C%EC%8B%9C%EC%95%84/place/1074229525?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                     
                 </li>
@@ -228,6 +240,7 @@
 경북 포항시 북구 청하면 청하로217번길 40-25 (덕성리)
 0507-1301-1751
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B2%AD%ED%95%98/place/1523811520?c=15.00,0,0,0,dh&isCorrectAnswer=true"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -240,6 +253,7 @@
 010-2699-6154
                             
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%82%BC%EB%8C%80%ED%95%9C%EC%B1%84/place/1867229026?c=15.00,0,0,0,dh&isCorrectAnswer=true"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -251,6 +265,7 @@
 
 0507-1422-0521
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%96%B4%EC%B4%8C%EC%9D%BC%EA%B8%B0%20%ED%98%B8%EB%AF%B8%EA%B3%B6%20%EB%8F%85%EC%B1%84%ED%8E%9C%EC%85%98/place/1798479593?c=15.00,0,0,0,dh&isCorrectAnswer=true"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -261,7 +276,8 @@
 경북 포항시 남구 호미곶면 해맞이로46번길 66 (대보리)
                           
 0507-1382-3811
-                        </p>                        
+                        </p>                      
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EB%B9%84%EB%8B%A4%ED%8E%A0%EB%A6%AC%EC%A6%88/place/1766456948?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>  
                     </div>
                 </li>
             </ul>
@@ -280,6 +296,7 @@
                            
 010-5334-3810
                         </p>
+                        <button class="detail_btn"><a href=""target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -291,6 +308,7 @@
  
 010-4171-9101                
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EC%86%94%EB%B0%AD%EC%BA%A0%ED%95%91%EC%9E%A5/place/1415485486?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -302,18 +320,20 @@
                             
 0507-1394-1010
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EA%B8%80%EB%9E%A8%ED%95%91%20%EC%95%A4%20%EC%B9%B4%EB%9D%BC%EB%B0%98/place/35831050?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
                     
                     <div class="box_K">
                         <img class="img" src="../imgs/camping/cam4.jpg" alt="">
-                        <h1 class="heading">호미곶유니의바다 카라반캠핑장</h1>
+                        <h1 class="heading">호미곶유니의바다 캠핑장</h1>
                         <p class="texts">
 경북 포항시 남구 호미곶면 해맞이로46번길 134 (강사리)
                             
 070-4501-7077
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%ED%98%B8%EB%AF%B8%EA%B3%B6%EC%9C%A0%EB%8B%88%EC%9D%98%EB%B0%94%EB%8B%A4%20%EC%BA%A0%ED%95%91%EC%9E%A5/place/1669391965?c=12.00,0,0,0,dh&placePath=%3Fentry%253Dpll"target="_blank">자세히보기</a></button>
                     </div>
                     
                 </li>
@@ -327,6 +347,7 @@
 
 0507-1368-0770
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%ED%8F%AC%EC%9C%A0%EC%B9%B4%EB%9D%BC%EB%B0%98%ED%8C%8C%ED%81%AC/place/1381739426?c=15.00,0,0,0,dh&isCorrectAnswer=true"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -338,6 +359,7 @@
 
 0507-1342-7696
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EA%B7%B8%EB%A6%B0%EC%98%A4%ED%86%A0%EC%BA%A0%ED%95%91%EC%9E%A5/place/21799538?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -349,6 +371,7 @@
 
 010-9206-6234
                         </p>
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EB%B3%84%EC%82%BC%ED%82%A8%EB%B3%84/place/32636652?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>
                     </div>
                 </li>
                 <li class="col_list">
@@ -359,7 +382,8 @@
 경북 포항시 남구 장기면 동해안로 2816 (두원리)
                          
 0507-1324-1974
-                        </p>                        
+                        </p>            
+                        <button class="detail_btn"><a href="https://map.naver.com/p/search/%EB%B8%94%EB%A3%A8%EB%B0%8D%EC%B9%B4%EB%9D%BC%EB%B0%98/place/1708693438?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"target="_blank">자세히보기</a></button>            
                     </div>
                 </li>
             </ul>

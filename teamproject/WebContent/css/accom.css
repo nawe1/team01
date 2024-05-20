@@ -180,3 +180,20 @@ border-bottom:1px solid #ccc; background-color:#333; }
 .btn { display:inline-block; padding:4px 14px; color:#fff; background-color: #333; }
 .btn.primary { background-color: deepskyblue; }
 .btn.primary:hover { background-color: #333; }
+.detail_btn{
+   clear:both;
+   padding:7px;
+   width:100px;
+   float:right;
+   margin-right: 15px;
+   background-color: #cce7ff;
+   color:#404040;
+   border-radius: 8px;
+   border: #ababb1 1px solid;
+   
+}
+button.detail_btn:hover{
+	box-shadow: 0 14px 10px rgba(158, 158, 158, 0.25), 0 10px 10px rgba(0,0,0,0.22);  /* 그림자*/
+	background-color: #6bacd3;
+	color:white;
+}
