@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.pohang.dao.MemberDAO;
 import org.pohang.dto.Member;
+import org.pohang.util.AES256;
 
 
 @WebServlet("/EditMember.do")
@@ -31,6 +32,13 @@ public class EditMemberCtrl extends HttpServlet {
 		MemberDAO dao = new MemberDAO();
 		Member mem = dao.getMember(id);
 		
+		String key= "%02x";
+
+		try {
+			mem.setPw(AES256.decryptAES256(mem.getPw(), key));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		
 		

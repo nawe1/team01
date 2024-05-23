@@ -12,10 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>공지사항</title>
     
-    <script src="${path0 }/js/jquery.dataTables.js"></script>
-	<link rel="stylesheet" href="${path0 }/css/jquery.dataTables.css" >
+    <script src="${hpath }/js/jquery.dataTables.js"></script>
+	<link rel="stylesheet" href="${hpath }/css/jquery.dataTables.css" >
     
-    <link rel="stylesheet" href="../css/noti.css">
+    <link rel="stylesheet" href="${hpath }/css/noti.css">
     
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <style>
@@ -62,44 +62,44 @@
                         </button>
                     </form>
                 </div>
-
-                <div class="table_wrap">
-                    <table class="table" id="tb3">
-                        <thead>
-                            <tr>
-                                <th class="item1">번호</th>
-                                <th class="item2">제목</th>
-                                <th class="item3">작성일</th>
-                                <th class="item4">조회수</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-	                          
-								<c:forEach var="dto" items="${notiList }">
-								<tr>
-									<td>${dto.no }</td>
-									<td>
-										
-										<strong>${dto.title }</strong>
-										
-										<a href="${hpath }/GetNotice.do?no=${dto.no }">${dto.title }</a>
-										
-									</td>
-									<td>${dto.resdate }</td>
-									<td>${dto.visited }</td>
-								</tr>
-								</c:forEach>
-							
-							
-                        </tbody>
-                    </table>
-                    <script>
-				$(document).ready(function(){
-					$("#tb1").DataTable({
-						order:[[0,"desc"]]
+	                <div class="table_wrap">
+	                    <table class="table" id="tb3">
+	                        <thead>
+	                            <tr>
+	                                <th class="item1">번호</th>
+	                                <th class="item2">제목</th>
+	                                <th class="item3">작성일</th>
+	                                <th class="item4">조회수</th>
+	                            </tr>
+	                        </thead>
+	                        <tbody>
+		                          
+									<c:forEach var="dto" items="${notiList }">
+									<tr>
+										<td>${dto.no }</td>
+										<td>
+											
+											<strong>${dto.title }</strong>
+											
+											<a href="${hpath }/GetNotice.do?no=${dto.no }">${dto.title }</a>
+											
+										</td>
+										<td>${dto.resdate }</td>
+										<td>${dto.visited }</td>
+									</tr>
+									</c:forEach>
+								
+								
+	                        </tbody>
+	                    </table>
+	                    <script>
+					$(document).ready(function(){
+						$("#tb1").DataTable({
+							order:[[0,"desc"]]
+						});
 					});
-				});
-				</script>
+					</script>
+					
 				<hr>
 				<c:if test="${sid.equals('admin') }">
 				<div class="btn-group">
@@ -118,29 +118,9 @@
     
     
     
-    <footer id="ft" class="clr-fix">
-        <nav id="fnb">
-            <ul class="fl">
-                <li><a href="term.html">회원약관</a></li>
-                <li><a href="policy.html">개인정보처리방침</a></li>
-                <li><a href="map.html">오시는길</a></li>
-                <li><a href="contact.html">관리자 문의</a></li>
-            </ul>
-            <ul class="fr">
-                <li><a href="intro.html?data=local1">지역소개</a></li>
-                <li><a href="guide1.html">이용안내</a></li>
-                <li><a href="notice.html">커뮤니티</a></li>
-            </ul>
-        </nav>
-        <hr>
-        <div class="copy">
-            <p class="copyright">Copyrigh 2024. KiM Gi Tae. All Rights Reserved.</p>
-            <p class="addr">#1204, 128-14, Block 6, Gasan-dong, Geumcheon-gu, Seoul-city</p>
-            <p class="tel">Tel. 010-2858-4307, Fax. 02-2488-7954, Email : kkt09072@google.com
-                <a href="https://www.google.com/maps/search/%EA%B0%80%EC%82%B0%EB%8F%99+128-14+%EC%A7%80%EB%8F%84?entry=ttu" target="_blank">오시는 길</a>
-            </p>
-        </div>
-    </footer>
+<div id="footer">
+	<%@ include file="/footer.jsp" %>
+</div>
     
 </body>
 </html>

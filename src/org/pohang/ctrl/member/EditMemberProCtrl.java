@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.pohang.dao.MemberDAO;
 import org.pohang.dto.Member;
+import org.pohang.util.AES256;
 
 
 
@@ -29,8 +30,14 @@ public class EditMemberProCtrl extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		String id = request.getParameter("id");
 		String pw = request.getParameter("pw");
-		
+		String key = "%02x";
 		String enPw = "";
+        try {
+            enPw = AES256.encryptAES256(pw, key);
+            System.out.println("비밀번호 암호화 : "+enPw);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         
 		Member mem = new Member(request.getParameter("id"),
 				request.getParameter("pw"),

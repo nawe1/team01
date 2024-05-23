@@ -11,14 +11,52 @@
 <meta charset="UTF-8">
 <title>${title }</title>
 <style>
-.container { width:1400px; }
-.page { clear:both; height:100vh; }
-#page1 { background-color:#ececec; }
+#container{height:700px;}
+.page { clear:both; height:1000px;   }
 #page2 { background-color:#42bcf5; }
-.page_title { font-size:36px; padding-top:5em; text-align:center; }
-.form-control{width:300px;}
-.table{margin:0 auto;margin-top:30px;}
-.btn-group1{margin-left:600px;margin-top:5px;}
+.page_title { font-size:36px; padding-top:5em; text-align:center; padding-bottom:20px; }
+#id { width:400px; float:left; margin-right:20px }
+.table { width:1400px; border:none; }
+.table tbody th { padding-left:200px; width:300px; border-bottom: none; }
+
+ .table tbody tr td, .table tbody tr th {
+ 	 align-items:center;
+     padding-bottom: 10px; /* 셀 간격을 조정 */
+       border-bottom: none; 
+ }
+ .form-control { float:left; width:500px; height:25px;}
+
+ label {
+     display: block;
+     margin-bottom: 5px; /* 레이블과 입력 필드 사이의 간격을 조정 */
+     color : black;
+ }
+ .btn { width:100px;  float:left; margin-left:10px; }
+ .btn-group1 { display: flex; justify-content: left; margin-left:550px;}
+ .btn1 { width:100px; height:35px; align-items:center; margin-left:10px;  margin-top: 20px; }
+ #msg1 { float:left; margin-left:15px;}
+ 
+footer{margin-top:100px;}
+/* 푸터 영역 */
+#ft { width: 100%; margin-top:100px }   
+.ft_wrap { clear:both; width: 1200px; margin: 0 auto; } 
+.ft { clear:both; width: 100%; padding-top:3px; padding-bottom: 20px; }
+#fnb { clear:both; width:100%; height:42px; line-height: 42px; 
+background-color:#333; }
+#fnb:after { content:""; display:block; width: 100%; clear: both; }
+#fnb ul li { float:left; padding:0px 10px; }
+#fnb ul.fl { float:left; }
+#fnb ul.fr { float:right; }
+#fnb ul li a { color:#fff; font-size:16px; }
+#fnb ul.fl li a:after { content:"|"; padding-left: 16px; }
+#fnb ul.fr li a:before { content:"|"; padding-right: 16px; }
+#fnb ul.fl li:hover a:after { content:"|"; padding-left: 16px; color:#fff; }
+#fnb ul.fr li:hover a:before { content:"|"; padding-right: 16px; color:#fff;  }
+#fnb ul.fl li:last-child a:after { content:""; }
+#fnb ul.fr li:first-child a:before { content:""; }
+#fnb ul li:hover a { color:deepskyblue; }
+#fnb ul.fl li:hover::last-child a:after { content:""; }
+#fnb ul.fr li:hover::first-child a:before { content:""; } 
 
 </style>
 </head>

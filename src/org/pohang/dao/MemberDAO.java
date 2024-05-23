@@ -19,9 +19,9 @@ public class MemberDAO {
 	
 	public List<Member> getMemberList(){
 		List<Member> memList = new ArrayList<>();
-		OracleDB oracle = new OracleDB();
+		MariaDB maria = new MariaDB();
 		try {
-			con = oracle.connect();
+			con = maria.Connect();
 			pstmt = con.prepareStatement(SqlLang.SELECT_ALL_MEMBER);
 			rs = pstmt.executeQuery();
 			while(rs.next()) {
@@ -38,16 +38,16 @@ public class MemberDAO {
 		} catch(Exception e){
 			e.printStackTrace();
 		} finally {
-			oracle.close(con, pstmt, rs);
+			maria.close(con, pstmt, rs);
 		}
 		return memList;
 	}
 	
 	public Member getMember(String id) {
 		Member mem = new Member();
-		OracleDB oracle = new OracleDB();
+		MariaDB maria = new MariaDB();
 		try {
-			con = oracle.connect();
+			con = maria.Connect();
 			pstmt = con.prepareStatement(SqlLang.SELECT_ONE_MEMBER);
 			pstmt.setString(1, id);
 			rs = pstmt.executeQuery();
@@ -63,7 +63,7 @@ public class MemberDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			oracle.close(con, pstmt, rs);
+			maria.close(con, pstmt, rs);
 		}
 		System.out.println(mem);
 		return mem;
@@ -72,9 +72,9 @@ public class MemberDAO {
 	
 	public int join(Member mem) {
 		int cnt = 0;
-		OracleDB oracle = new OracleDB();
+		MariaDB maria = new MariaDB();
 		try {
-			con = oracle.connect();
+			con = maria.Connect();
 			pstmt = con.prepareStatement(SqlLang.INS_MEMBER);
 			pstmt.setString(1, mem.getId());
 			pstmt.setString(2, mem.getPw());
@@ -87,16 +87,16 @@ public class MemberDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			oracle.close(con, pstmt);
+			maria.close(con, pstmt);
 		}
 		return cnt;
 	}
 	
 	public int upMember(Member mem) {
 		int cnt = 0;
-		OracleDB oracle = new OracleDB();
+		MariaDB maria= new MariaDB();
 		try {
-			con = oracle.connect();
+			con = maria.Connect();
 			pstmt = con.prepareStatement(SqlLang.UPD_MEMBER);
 			pstmt.setString(1, mem.getPw());
 			pstmt.setString(2, mem.getName());
@@ -109,32 +109,32 @@ public class MemberDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			oracle.close(con, pstmt);
+			maria.close(con, pstmt);
 		}
 		return cnt;
 	}
 	
 	public int memberOut(String id) {
 		int cnt = 0;
-		OracleDB oracle = new OracleDB();
+		MariaDB maria = new MariaDB();
 		try {
-			con = oracle.connect();
+			con = maria.Connect();
 			pstmt = con.prepareStatement(SqlLang.DEL_MEMBER);
 			pstmt.setString(1, id);
 			cnt = pstmt.executeUpdate();
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			oracle.close(con, pstmt);
+			maria.close(con, pstmt);
 		}
 		return cnt;
 	}
 
 	public boolean idCheck(String id) {
 		boolean ck = false;
-		OracleDB oracle = new OracleDB();
+		MariaDB maria = new MariaDB();
 		try {
-			con = oracle.connect();
+			con = maria.Connect();
 			pstmt = con.prepareStatement(SqlLang.SELECT_ONE_MEMBER);
 			pstmt.setString(1, id);
 			rs = pstmt.executeQuery();
@@ -146,7 +146,7 @@ public class MemberDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		} finally {
-			oracle.close(con, pstmt, rs);
+			maria.close(con, pstmt, rs);
 		}
 		return ck;
 	}

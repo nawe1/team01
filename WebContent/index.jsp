@@ -76,14 +76,14 @@
     </section>
     <section class="ypage" id="page4">
             <div class="ycity">
-                <<p id="ybok">북부권</p>
+                <p id="ybok">북부권</p>
                 <p id="ydo">도심권</p>
                 <p id="ynam">남부권</p>
             </div>
             <div class="ybox3">
-                <a href=""><img src="./imgs/top01.png" alt=""></a>
-                <a href=""><img src="./imgs/top03.JPG" alt=""></a>
-                <a href=""><img src="./imgs/top04.JPG" alt=""></a>
+                <a href="${hpath }/north/nmain.jsp"><img src="./imgs/top01.png" alt=""></a>
+                <a href="${hpath }/city/cmain.jsp"><img src="./imgs/top03.JPG" alt=""></a>
+                <a href="${hpath }/south/smain.jsp"><img src="./imgs/top04.JPG" alt=""></a>
             </div>
     </section>
     <section class="ypage" id="page5">

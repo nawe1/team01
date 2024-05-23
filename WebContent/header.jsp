@@ -53,8 +53,8 @@
                 <li class="item1">
                     <p><a href="">커뮤니티</a></p> 
                     <ul class="sub">
-                        <li><a href="${hpath }/notice/noti.jsp" class="dp2">공지사항</a></li>
-                        <li><a href="${hpath }/notice/board.jsp" class="dp2">자유게시판</a></li>
+                        <li><a href="${hpath }/NotiList.do" class="dp2">공지사항</a></li>
+                        <li><a href="${hpath }/NotiList.do" class="dp2">자유게시판</a></li>
                     </ul>
                 </li>
                 <li class="item1">

@@ -15,6 +15,7 @@ import javax.servlet.http.HttpSession;
 
 import org.pohang.dao.MemberDAO;
 import org.pohang.dto.Member;
+import org.pohang.util.AES256;
 
 
 @WebServlet("/LogInPro.do")
@@ -35,12 +36,19 @@ public class LogInProCtrl extends HttpServlet {
 		
 		MemberDAO dao = new MemberDAO();
 		Member mem = dao.getMember(id);
-		System.out.println(mem);
+		
 		
 		HttpSession session = request.getSession();
 		PrintWriter out = response.getWriter();
 		RequestDispatcher view;
 		
+		String key = "%02x";
+		
+		try {
+			mem.setPw(AES256.decryptAES256(mem.getPw(), key));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		
 		if(id.equals(mem.getId()) && pw.equals(mem.getPw())) { //로그인 처리 대상

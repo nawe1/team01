@@ -23,6 +23,6 @@ border-bottom:1px solid #ccc; background-color:#333; }
 .copy { padding:24px; line-height: 24px; } 
 
 .btn-group { clear:both; margin-top: 10px; padding-top: 10px; text-align: right; }
-.btn { display:inline-block; padding:4px 14px; color:#fff; background-color: #333; }
+.btn { display:inline-block;color:#fff; background-color: #333; }
 .btn.primary { background-color: deepskyblue; }
 .btn.primary:hover { background-color: #333; }

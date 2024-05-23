@@ -1,6 +1,5 @@
 package org.pohang.ctrl.admin;
 
-
 import java.io.IOException;
 import java.util.List;
 
@@ -14,8 +13,6 @@ import javax.servlet.http.HttpSession;
 
 import org.pohang.dao.MemberDAO;
 import org.pohang.dto.Member;
-
-
 
 @WebServlet("/MemberList.do")
 public class MemberListCtrl extends HttpServlet {
