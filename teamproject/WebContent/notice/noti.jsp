@@ -78,11 +78,7 @@
 									<tr>
 										<td>${dto.no }</td>
 										<td>
-											
-											<strong>${dto.title }</strong>
-											
 											<a href="${hpath }/GetNotice.do?no=${dto.no }">${dto.title }</a>
-											
 										</td>
 										<td>${dto.resdate }</td>
 										<td>${dto.visited }</td>

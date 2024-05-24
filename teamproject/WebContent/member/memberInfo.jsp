@@ -75,7 +75,7 @@
 						<tr>
 							<th><label for="birth">생년월일</label></th>
 							<td>
-								<input type="number" name="birth" id="birth" class="form-control" value="${mem.birth }" required>
+								<input type="date" name="birth" id="birth" class="form-control" value="${mem.birth }" required>
 							</td>
 						</tr>
 						<tr >
