@@ -34,14 +34,14 @@
 - Front Template Language : Jsp(JSTL/EL) 3.0/HTML5/CSS3/Javascript ES5
 - Web (Application) Server : Tomcat 9.0
 - Navigation Design : WordCloud 3.7, Card Sort BoardMix
-- 
-* **Database :** <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white"/>
+  
+<!-- * **Database :** <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white"/>
   
 * **Backend :**  <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
   
 * **Frontend :** <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/><br/>
   
-* **CI/CD :** <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> 
+* **CI/CD :** <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">  -->
 <br><br><br>
 
 ## 4. 팀 소개 (Introduce the team)
@@ -68,13 +68,24 @@
 |           |         |      |               |            | 로그아웃       
 <br>
 
-#### 5-1.1. ERD다이어그램() 
-<!-- ![ERD Diagram](https://github.com/nawe1/team01/assets/161221357/0fef539e-aca0-4703-92b4-efdc3ef92224) -->
+#### 5-1.1. 자료 수집(Data Collection And Sort) - WordCloud
 
+![워드클라우드](https://github.com/nawe1/team01/assets/161221357/620ddca5-6402-4a69-b625-d474e7111606)
 
 <br>
 
-#### 6.기능 구현() - 
+#### 5-1.2. 콘텐츠 분류(Content Cort) - Card Sorting
+
+![카드소팅](https://github.com/nawe1/team01/assets/161221357/0c28f22a-402e-411f-8f7b-810bf4d93374)
+
+<br>
+#### 5-1.1. ERD다이어그램() 
+
+![ERD Diagram](https://github.com/nawe1/team01/assets/161221357/0fef539e-aca0-4703-92b4-efdc3ef92224) 
+
+<br>
+
+## 6.기능 구현() - 
 
 <br>
 
