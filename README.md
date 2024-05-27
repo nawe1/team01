@@ -69,7 +69,7 @@
 <br>
 
 #### 5-1.1. ERD다이어그램() 
-![ERD Diagram](https://github.com/nawe1/team01/assets/161221357/0fef539e-aca0-4703-92b4-efdc3ef92224)
+<!-- ![ERD Diagram](https://github.com/nawe1/team01/assets/161221357/0fef539e-aca0-4703-92b4-efdc3ef92224) -->
 
 
 <br>
