@@ -1,13 +1,20 @@
 # 프로젝트 개발 보고서(Project Development Report)
 -----------------------------------------------
 ## 1. 프로젝트 개요(Project Outline)
+    
+    대한민국 중에서 우리 팀이 한번도 안간 장소가 포항시여서 포항 관련 프로젝트를 개발하게 되었습니다.
 
+    Among the Republic of Korea, Pohang City is the place our team has never been to, so we developed a project related to Pohang.
 	
     
 <br><br><br>
 
 ## 2. 프로젝트 목적(Project Purpose)
     
+    우리는 만약 포항시를 여행한다면 어떻게 여행을 할 건지에 대해서 이야기를 하던 중 관광을 목적으로 프로젝트를 만들자고 해서 다같이 포항시 관광을 목적으로 프로젝트를 개발하게 되었습니다.
+
+    While we were talking about how to travel to Pohang City, we decided to create a project for tourism, so we developed a project for tourism.
+	
 
 <br><br><br>
 
@@ -32,12 +39,12 @@
   
 * **Backend :**  <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
   
-* **Frontend :** <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/><br/>
+* **Frontend :** <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/><br/>
   
 * **CI/CD :** <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> 
 <br><br><br>
 
-## 4. 팀 소개
+## 4. 팀 소개 (Introduce the team)
 <center>
 
 |<img src="https://avatars.githubusercontent.com/u/160584145?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/110553201?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/161221357?v=4" width="150" height="150"/>
