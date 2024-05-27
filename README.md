@@ -61,26 +61,34 @@
 |           |         |      |               |            | 로그아웃       
 <br>
 
-#### 5-1.1. 자료 수집(Data Collection And Sort) - WordCloud
+#### 5-1.1. ERD다이어그램() 
+![ERD Diagram](https://github.com/nawe1/team01/assets/161221357/0fef539e-aca0-4703-92b4-efdc3ef92224)
 
 
 <br>
 
-#### 5-1.2. 콘텐츠 분류(Content Cort) - Card Sorting
+#### 6.기능 구현() - 
 
 <br>
 
-#### 5-1-3. 서비스 흐름 설계(Service Flow Design)
-
+####  6-1. 회원가입 기능 구현()
 
 <br>
 
-#### 5-1-4. 서비스 시나리오(Service User Scenario)
+#### 6-2. 공지사항/자유게시판 글 등록 기능 구현
+
+<br>
 
 
 
-### 5-2. 데이터베이스 설계
+#### 6-3. 공지사항/자유게시판 글 수정 기능 구현
 
+<br>
 
-#### 5-2-1. 개념적 설계
+#### 6-4. 공지사항/자유게시판 글 삭제 기능 구현
+
+<br>
+
+#### 6-5. 괸리자 페이지 기능 구현
+
 <br>
