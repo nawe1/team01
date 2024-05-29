@@ -85,7 +85,7 @@
 
 <br>
 
-## 6.기능 구현() -
+## 6.기능 구현
 
 <br>
 
@@ -99,7 +99,32 @@
 ![자유게시판](https://github.com/nawe1/team01/assets/161221357/84d9efa8-273d-47b0-b40a-98e1cb4021f7)
 <br>
 
-#### 6-5. 괸리자 페이지 회원 목록 기능 구현
+#### 6-3. 괸리자 페이지 회원 목록 기능 구현
 ![괸리자 페이지](https://github.com/nawe1/team01/assets/161221357/ab9d04cc-51e9-465c-a8f2-7a244d48dcb9)
+
+<br>
+
+#### 6-4. 메인 페이지 
+![메인페이지](https://github.com/nawe1/team01/assets/161221357/d3e3b15b-2adf-499e-92aa-2f2aecd1541a)
+
+<br>
+
+#### 6-5. 포항 권역별  페이지
+![포항 권역별](https://github.com/nawe1/team01/assets/161221357/fc110b47-f3bd-4441-a424-a465c46c5871)
+
+<br>
+
+#### 6-6. 포항 공연 목록  페이지
+![포항 공연목록](https://github.com/nawe1/team01/assets/161221357/746b37ae-537a-4597-9237-2e17b2dcd60e)
+
+<br>
+
+#### 6-7. 포항 음식점/카페 페이지
+![음식점_카페](https://github.com/nawe1/team01/assets/161221357/d9a91abb-fdb4-40c4-83da-c207e5f1dd6c)
+
+<br>
+
+#### 6-8. 포항 숙소 모음  페이지
+![포항 숙소](https://github.com/nawe1/team01/assets/161221357/fbb84949-b4ad-4151-a3d5-8f7869235aa8)
 
 <br>
